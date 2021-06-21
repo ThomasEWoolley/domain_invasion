@@ -1,0 +1,13 @@
+ccc
+model = createpde(1);
+R1 = [3,4,0,100,100,0,100,100,0,0]';
+geometryFromEdges(model,decsg(R1));
+applyBoundaryCondition(model,'neumann','Edge',1:3,'g',0,'q',0);
+applyBoundaryCondition(model,'dirichlet','Edge',4,'u',1);
+setInitialConditions(model,0)
+specifyCoefficients(model,'m',0,...
+                          'd',1,...
+                          'c',1-u,...
+                          'a',0,...
+                          'f',4*u*(1-u));
+pdegplot(model,'EdgeLabels','on')
