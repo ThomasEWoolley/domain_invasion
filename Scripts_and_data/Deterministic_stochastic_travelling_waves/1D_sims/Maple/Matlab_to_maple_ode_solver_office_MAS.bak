@@ -1,0 +1,1554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2020" minor="1"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false" editable="true">
+</View-Properties>
+<MapleNet-Properties prettyprint="0" warnlevel="3" compactdisplay="false" preplot="" helpbrowser="standard" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" historytimestamp="false" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="720" rtablesize="[10, 10]" useclientjvm="true" labelwidth="20" postplot="" typesetting="extended" ansi="false" ansicolor="[]" elisiondigitsthreshold="10000" showassumed="1" ansilprint="false" trailingsemicolon="true" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Group hide-input="false" labelreference="L6" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart:
+with(ArrayTools):
+with(LinearAlgebra):
+with(Student[LinearAlgebra]):
+with(StringTools):
+with(ListTools,MakeUnique):
+A:=ImportMatrix(<Font encoding="UTF-8">&quot;C:\134\134Users\134\134smatw1\134\134Dropbox\134\134Domain_invasion\134\134Maths\134\134Deterministic_stochastic_travelling_waves\134\1341D_sims\134\134Maple\134\134Matlab\134\134Test_AllData_L_5_W_5.mat&quot;</Font>,source=MATLAB):
+A:
+unassign(Q):
+L:=round(A[3,2][1][1]);
+W:=round(A[5,2][1][1]);
+n:=round(A[6,2][1][1]);</Text-field>
+</Input>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Typesetting:-mprintslash([(L := 5)],[5])
+Typesetting:-mprintslash([(W := 5)],[5])
+Typesetting:-mprintslash([(n := 33400)],[33400])
+</Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L10" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">EQNSP:=[]:
+EQNSQ:=[]:
+for i from 1 to n do:
+
+if i mod 1000 =0 then
+print(i);
+end if:
+ 
+S:=0:
+Sp:=0:
+for j from 1 to Size(A[1,2][1][i])[1] do:
+S:=S+round(A[1,2][1][i][j][1])*Q[A[4,2][1][i][1][j][1]](t);
+Sp:=Sp+round(A[1,2][1][i][j][1])*P[A[4,2][1][i][1][j][1]](t);
+end do:
+
+if i=1 then
+IC:=Q[A[2,2][i]](0)=1;
+else
+IC:=Q[A[2,2][i]](0)=0;
+end if;
+#print(parse(A[2,2][i]));
+dP[A[2,2][i]]:=Sp:
+#EQNSP[parse(A[2,2][i])]:=diff(P[A[2,2][i]](t),t)=Sp:
+
+assign(dsolve([diff(Q[A[2,2][i]](t),t)=S,IC]));
+
+EQNSQ:=[op(EQNSQ),Q[A[2,2][i]](t)]:
+end do:
+parse(cat(&quot;save &quot;, sprintf(&quot;%q&quot;, anames(user)), sprintf(&quot;, `Maple_output_%g_%g.m`&quot;,L,W)), statement);</Text-field>
+</Input>
+<Input><Text-field prompt="&gt; " style="Maple Input" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field>
+</Input>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+22000
+23000
+24000
+25000
+26000
+27000
+28000
+29000
+30000
+31000
+32000
+33000
+</Text-field>
+</Output>
+</Group>
+<Group labelreference="L2" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">List2Name:=proc(a)
+[seq(parse(a[i]),i=1..Length(a))];
+end proc:
+####
+List2Mat:=proc(a,L,W)
+local Args,M;
+Args:=seq(seq(w[i,j],j=1..W),i=1..L):
+M:=unapply(Matrix(L, W, symbol = w),Args):
+M(seq(parse(a[i]),i=1..L*W));
+end proc:
+####
+Mat2List:=proc(L)
+cat(seq(sprintf(&quot;%a&quot;,i),i=Transpose(L)));
+end proc:
+####Points of symmetry extractor####
+SymmExtrac:=proc(L,W)
+	local i,Index,IndexVec,OUTPUTsym,OUTPUTderiv,OUTPUTderivsol,OUTPUTspeed,kern,Indices;
+
+	OUTPUTsym:=[];
+	OUTPUTderiv:=[];
+	OUTPUTderivsol:=[];
+	Indices:=[];
+
+	#print(EQNS);
+	for i from 2 to W-1 do
+		
+		IndexVec:=[seq(1,j=1..i),seq(0,j=i+1..W)];
+		kern:=Matrix(1,L,1):
+		Index:=LinearAlgebra[KroneckerProduct](kern,IndexVec);
+		#print(1,Index);
+Indices:=[op(Indices),convert(cat(op(convert(Index,list))), string)]:
+		OUTPUTsym:=[op(OUTPUTsym),convert(Q[convert(cat(op(convert(Index,list))), string)](t),int)]:
+		#print(2,i);
+		OUTPUTderiv:=[op(OUTPUTderiv),diff(OUTPUTsym[-1],t)]:
+		#print(3,i);
+		OUTPUTderivsol:=[op(OUTPUTderivsol),fsolve(OUTPUTderiv[-1]=0,t=0.1..W)]:
+		#print(4,i);
+	end do:
+
+
+	OUTPUTspeed:=1/~(OUTPUTderivsol[2..-1]-OUTPUTderivsol[1..-2]):
+
+	
+	OUTPUTsym,OUTPUTderiv,OUTPUTderivsol,OUTPUTspeed,Indices;
+end proc:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L11" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Syms:=SymmExtrac(2,10):</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L12" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#f:=collect(Syms[1][1],t,simplify);
+#convert(collect(Syms[1][1],t,simplify),list)[1];
+#coeff(f,t);
+#coeff(3*exp(-2*t)*t+(1/2)*(3*(-1+exp(-2*t)))*exp(-2*t));
+#collect(Syms[1][2],t,simplify);
+#collect(Syms[1][3],t,simplify);
+
+EQN_leading_order:=[]:
+for i from 1 to 9 do;
+f:=convert(collect(Syms[1][i],t,simplify),list);
+EQN_leading_order:=[op(EQN_leading_order),f[-1]]:
+solve(diff(f[-1],t)=0.,t);
+end do;</Text-field>
+</Input>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Typesetting:-mprintslash([(f := [t])],[[t]])
+Typesetting:-mprintslash([(EQN_leading_order := [t])],[[t]])
+Typesetting:-mprintslash([(f := [t])],[[t]])
+Typesetting:-mprintslash([(EQN_leading_order := [t, t])],[[t, t]])
+Typesetting:-mprintslash([(f := [t])],[[t]])
+Typesetting:-mprintslash([(EQN_leading_order := [t, t, t])],[[t, t, t]])
+Typesetting:-mprintslash([(f := [t])],[[t]])
+Typesetting:-mprintslash([(EQN_leading_order := [t, t, t, t])],[[t, t, t, t]])
+Typesetting:-mprintslash([(f := [t])],[[t]])
+Typesetting:-mprintslash([(EQN_leading_order := [t, t, t, t, t])],[[t, t, t, t,
+t]])
+Typesetting:-mprintslash([(f := [t])],[[t]])
+Typesetting:-mprintslash([(EQN_leading_order := [t, t, t, t, t, t])],[[t, t, t,
+t, t, t]])
+Typesetting:-mprintslash([(f := [t])],[[t]])
+Typesetting:-mprintslash([(EQN_leading_order := [t, t, t, t, t, t, t])],[[t, t,
+t, t, t, t, t]])
+Typesetting:-mprintslash([(f := [t])],[[t]])
+Typesetting:-mprintslash([(EQN_leading_order := [t, t, t, t, t, t, t, t])],[[t,
+t, t, t, t, t, t, t]])
+</Text-field>
+</Output>
+<Output><Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20invalid%20subscript%20selector" hyperlink="true"><Font style="HyperlinkError">Error, invalid subscript selector</Font></Hyperlink></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L18" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">plot(EQN_leading_order[1..-3],t=0..10);
+
+#solve(diff(EQN_leading_order,t)=0)</Text-field>
+</Input>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">INTERFACE_PLOT(CURVES(Matrix(200,2,{(2, 1) = HFloat(.525760502512562788e-1), (2
+, 2) = HFloat(.525760502512562788e-1), (3, 1) = HFloat(.983221904522613155e-1),
+(3, 2) = HFloat(.983221904522613155e-1), (4, 1) = HFloat(.149768509547738710),
+(4, 2) = HFloat(.149768509547738710), (5, 1) = HFloat(.201555848241206065), (5,
+2) = HFloat(.201555848241206065), (6, 1) = HFloat(.253097050753768871), (6, 2)
+= HFloat(.253097050753768871), (7, 1) = HFloat(.300882343216080372), (7, 2) = 
+HFloat(.300882343216080372), (8, 1) = HFloat(.350361245728643245), (8, 2) = 
+HFloat(.350361245728643245), (9, 1) = HFloat(.401532397487437187), (9, 2) = 
+HFloat(.401532397487437187), (10, 1) = HFloat(.452539442713567830), (10, 2) = 
+HFloat(.452539442713567830), (11, 1) = HFloat(.505006458291457294), (11, 2) = 
+HFloat(.505006458291457294), (12, 1) = HFloat(.551219434170854283), (12, 2) = 
+HFloat(.551219434170854283), (13, 1) = HFloat(.603244299497487479), (13, 2) = 
+HFloat(.603244299497487479), (14, 1) = HFloat(.655482783919598022), (14, 2) = 
+HFloat(.655482783919598022), (15, 1) = HFloat(.705824243216080505), (15, 2) = 
+HFloat(.705824243216080505), (16, 1) = HFloat(.751539111055276376), (16, 2) = 
+HFloat(.751539111055276376), (17, 1) = HFloat(.805898510552763847), (17, 2) = 
+HFloat(.805898510552763847), (18, 1) = HFloat(.851948052261306543), (18, 2) = 
+HFloat(.851948052261306543), (19, 1) = HFloat(.905514616582914655), (19, 2) = 
+HFloat(.905514616582914655), (20, 1) = HFloat(.952930102512562827), (20, 2) = 
+HFloat(.952930102512562827), (21, 1) = HFloat(1.00495240552763820), (21, 2) = 
+HFloat(1.00495240552763820), (22, 1) = HFloat(1.05448994020100506), (22, 2) = 
+HFloat(1.05448994020100506), (23, 1) = HFloat(1.10617716080402029), (23, 2) = 
+HFloat(1.10617716080402029), (24, 1) = HFloat(1.15364216432160815), (24, 2) = 
+HFloat(1.15364216432160815), (25, 1) = HFloat(1.20483958291457283), (25, 2) = 
+HFloat(1.20483958291457283), (26, 1) = HFloat(1.25801931206030160), (26, 2) = 
+HFloat(1.25801931206030160), (27, 1) = HFloat(1.30431242261306535), (27, 2) = 
+HFloat(1.30431242261306535), (28, 1) = HFloat(1.35431025025125651), (28, 2) = 
+HFloat(1.35431025025125651), (29, 1) = HFloat(1.40596289849246237), (29, 2) = 
+HFloat(1.40596289849246237), (30, 1) = HFloat(1.45649493768844218), (30, 2) = 
+HFloat(1.45649493768844218), (31, 1) = HFloat(1.50538728391959808), (31, 2) = 
+HFloat(1.50538728391959808), (32, 1) = HFloat(1.55967389849246230), (32, 2) = 
+HFloat(1.55967389849246230), (33, 1) = HFloat(1.60845283618090451), (33, 2) = 
+HFloat(1.60845283618090451), (34, 1) = HFloat(1.66053476381909570), (34, 2) = 
+HFloat(1.66053476381909570), (35, 1) = HFloat(1.70772873115577895), (35, 2) = 
+HFloat(1.70772873115577895), (36, 1) = HFloat(1.75932420301507553), (36, 2) = 
+HFloat(1.75932420301507553), (37, 1) = HFloat(1.80787152110552762), (37, 2) = 
+HFloat(1.80787152110552762), (38, 1) = HFloat(1.85861745678391976), (38, 2) = 
+HFloat(1.85861745678391976), (39, 1) = HFloat(1.90823088442211053), (39, 2) = 
+HFloat(1.90823088442211053), (40, 1) = HFloat(1.96017154522613057), (40, 2) = 
+HFloat(1.96017154522613057), (41, 1) = HFloat(2.01019657487437220), (41, 2) = 
+HFloat(2.01019657487437220), (42, 1) = HFloat(2.06135439296482437), (42, 2) = 
+HFloat(2.06135439296482437), (43, 1) = HFloat(2.11208859849246267), (43, 2) = 
+HFloat(2.11208859849246267), (44, 1) = HFloat(2.15870806432160833), (44, 2) = 
+HFloat(2.15870806432160833), (45, 1) = HFloat(2.21213923316582939), (45, 2) = 
+HFloat(2.21213923316582939), (46, 1) = HFloat(2.25992870753768837), (46, 2) = 
+HFloat(2.25992870753768837), (47, 1) = HFloat(2.31088225477386944), (47, 2) = 
+HFloat(2.31088225477386944), (48, 1) = HFloat(2.35965130100502529), (48, 2) = 
+HFloat(2.35965130100502529), (49, 1) = HFloat(2.41380305929648253), (49, 2) = 
+HFloat(2.41380305929648253), (50, 1) = HFloat(2.46069450301507553), (50, 2) = 
+HFloat(2.46069450301507553), (51, 1) = HFloat(2.51391671105527648), (51, 2) = 
+HFloat(2.51391671105527648), (52, 1) = HFloat(2.56242297587939705), (52, 2) = 
+HFloat(2.56242297587939705), (53, 1) = HFloat(2.61548120653266336), (53, 2) = 
+HFloat(2.61548120653266336), (54, 1) = HFloat(2.66126148643216087), (54, 2) = 
+HFloat(2.66126148643216087), (55, 1) = HFloat(2.71339988140703525), (55, 2) = 
+HFloat(2.71339988140703525), (56, 1) = HFloat(2.76376299698492467), (56, 2) = 
+HFloat(2.76376299698492467), (57, 1) = HFloat(2.81409321155778924), (57, 2) = 
+HFloat(2.81409321155778924), (58, 1) = HFloat(2.86423827035175904), (58, 2) = 
+HFloat(2.86423827035175904), (59, 1) = HFloat(2.91241197336683433), (59, 2) = 
+HFloat(2.91241197336683433), (60, 1) = HFloat(2.96448902211055287), (60, 2) = 
+HFloat(2.96448902211055287), (61, 1) = HFloat(3.01412222562814103), (61, 2) = 
+HFloat(3.01412222562814103), (62, 1) = HFloat(3.06635883517587970), (62, 2) = 
+HFloat(3.06635883517587970), (63, 1) = HFloat(3.11364554572864316), (63, 2) = 
+HFloat(3.11364554572864316), (64, 1) = HFloat(3.16590621306532682), (64, 2) = 
+HFloat(3.16590621306532682), (65, 1) = HFloat(3.21596282562814073), (65, 2) = 
+HFloat(3.21596282562814073), (66, 1) = HFloat(3.26589759899497478), (66, 2) = 
+HFloat(3.26589759899497478), (67, 1) = HFloat(3.31805466331658350), (67, 2) = 
+HFloat(3.31805466331658350), (68, 1) = HFloat(3.36609322361809049), (68, 2) = 
+HFloat(3.36609322361809049), (69, 1) = HFloat(3.41529128040201035), (69, 2) = 
+HFloat(3.41529128040201035), (70, 1) = HFloat(3.46961178090452282), (70, 2) = 
+HFloat(3.46961178090452282), (71, 1) = HFloat(3.51879454472361797), (71, 2) = 
+HFloat(3.51879454472361797), (72, 1) = HFloat(3.56909313316582955), (72, 2) = 
+HFloat(3.56909313316582955), (73, 1) = HFloat(3.62024550201005058), (73, 2) = 
+HFloat(3.62024550201005058), (74, 1) = HFloat(3.66726448291457308), (74, 2) = 
+HFloat(3.66726448291457308), (75, 1) = HFloat(3.71738519396984968), (75, 2) = 
+HFloat(3.71738519396984968), (76, 1) = HFloat(3.76712438291457286), (76, 2) = 
+HFloat(3.76712438291457286), (77, 1) = HFloat(3.82032985427135729), (77, 2) = 
+HFloat(3.82032985427135729), (78, 1) = HFloat(3.86728137788944704), (78, 2) = 
+HFloat(3.86728137788944704), (79, 1) = HFloat(3.92145368944723627), (79, 2) = 
+HFloat(3.92145368944723627), (80, 1) = HFloat(3.97034002412060305), (80, 2) = 
+HFloat(3.97034002412060305), (81, 1) = HFloat(4.01871049698492477), (81, 2) = 
+HFloat(4.01871049698492477), (82, 1) = HFloat(4.07072429447236139), (82, 2) = 
+HFloat(4.07072429447236139), (83, 1) = HFloat(4.12294849849246248), (83, 2) = 
+HFloat(4.12294849849246248), (84, 1) = HFloat(4.17046479145728632), (84, 2) = 
+HFloat(4.17046479145728632), (85, 1) = HFloat(4.22092498391959836), (85, 2) = 
+HFloat(4.22092498391959836), (86, 1) = HFloat(4.27016920000000066), (86, 2) = 
+HFloat(4.27016920000000066), (87, 1) = HFloat(4.32355044974874403), (87, 2) = 
+HFloat(4.32355044974874403), (88, 1) = HFloat(4.36974007236180917), (88, 2) = 
+HFloat(4.36974007236180917), (89, 1) = HFloat(4.42279053316582971), (89, 2) = 
+HFloat(4.42279053316582971), (90, 1) = HFloat(4.47266075527638218), (90, 2) = 
+HFloat(4.47266075527638218), (91, 1) = HFloat(4.52204928542713613), (91, 2) = 
+HFloat(4.52204928542713613), (92, 1) = HFloat(4.57147710452261347), (92, 2) = 
+HFloat(4.57147710452261347), (93, 1) = HFloat(4.62189035125628145), (93, 2) = 
+HFloat(4.62189035125628145), (94, 1) = HFloat(4.67532754824120556), (94, 2) = 
+HFloat(4.67532754824120556), (95, 1) = HFloat(4.72432422512562855), (95, 2) = 
+HFloat(4.72432422512562855), (96, 1) = HFloat(4.77269023668341674), (96, 2) = 
+HFloat(4.77269023668341674), (97, 1) = HFloat(4.82439270703517575), (97, 2) = 
+HFloat(4.82439270703517575), (98, 1) = HFloat(4.87598262562814089), (98, 2) = 
+HFloat(4.87598262562814089), (99, 1) = HFloat(4.92228764120603035), (99, 2) = 
+HFloat(4.92228764120603035), (100, 1) = HFloat(4.97713927135678436), (100, 2) =
+HFloat(4.97713927135678436), (101, 1) = HFloat(5.02303657185929620), (101, 2) =
+HFloat(5.02303657185929620), (102, 1) = HFloat(5.07671862010050212), (102, 2) =
+HFloat(5.07671862010050212), (103, 1) = HFloat(5.12795293467336677), (103, 2) =
+HFloat(5.12795293467336677), (104, 1) = HFloat(5.17369907487437164), (104, 2) =
+HFloat(5.17369907487437164), (105, 1) = HFloat(5.22514539396985001), (105, 2) =
+HFloat(5.22514539396985001), (106, 1) = HFloat(5.27693273266331708), (106, 2) =
+HFloat(5.27693273266331708), (107, 1) = HFloat(5.32847393517587964), (107, 2) =
+HFloat(5.32847393517587964), (108, 1) = HFloat(5.37625922763819108), (108, 2) =
+HFloat(5.37625922763819108), (109, 1) = HFloat(5.42573813015075412), (109, 2) =
+HFloat(5.42573813015075412), (110, 1) = HFloat(5.47690928190954729), (110, 2) =
+HFloat(5.47690928190954729), (111, 1) = HFloat(5.52791632713567882), (111, 2) =
+HFloat(5.52791632713567882), (112, 1) = HFloat(5.58038334271356806), (112, 2) =
+HFloat(5.58038334271356806), (113, 1) = HFloat(5.62659631859296461), (113, 2) =
+HFloat(5.62659631859296461), (114, 1) = HFloat(5.67862118391959836), (114, 2) =
+HFloat(5.67862118391959836), (115, 1) = HFloat(5.73085966834170879), (115, 2) =
+HFloat(5.73085966834170879), (116, 1) = HFloat(5.78120112763819183), (116, 2) =
+HFloat(5.78120112763819183), (117, 1) = HFloat(5.82691599547738726), (117, 2) =
+HFloat(5.82691599547738726), (118, 1) = HFloat(5.88127539497487462), (118, 2) =
+HFloat(5.88127539497487462), (119, 1) = HFloat(5.92732493668341665), (119, 2) =
+HFloat(5.92732493668341665), (120, 1) = HFloat(5.98089150100502565), (120, 2) =
+HFloat(5.98089150100502565), (121, 1) = HFloat(6.02830698693467326), (121, 2) =
+HFloat(6.02830698693467326), (122, 1) = HFloat(6.08032928994974853), (122, 2) =
+HFloat(6.08032928994974853), (123, 1) = HFloat(6.12986682462311538), (123, 2) =
+HFloat(6.12986682462311538), (124, 1) = HFloat(6.18155404522613061), (124, 2) =
+HFloat(6.18155404522613061), (125, 1) = HFloat(6.22901904874371937), (125, 2) =
+HFloat(6.22901904874371937), (126, 1) = HFloat(6.28021646733668426), (126, 2) =
+HFloat(6.28021646733668426), (127, 1) = HFloat(6.33339619648241214), (127, 2) =
+HFloat(6.33339619648241214), (128, 1) = HFloat(6.37968930703517678), (128, 2) =
+HFloat(6.37968930703517678), (129, 1) = HFloat(6.42968713467336705), (129, 2) =
+HFloat(6.42968713467336705), (130, 1) = HFloat(6.48133978291457247), (130, 2) =
+HFloat(6.48133978291457247), (131, 1) = HFloat(6.53187182211055362), (131, 2) =
+HFloat(6.53187182211055362), (132, 1) = HFloat(6.58076416834170885), (132, 2) =
+HFloat(6.58076416834170885), (133, 1) = HFloat(6.63505078291457373), (133, 2) =
+HFloat(6.63505078291457373), (134, 1) = HFloat(6.68382972060301483), (134, 2) =
+HFloat(6.68382972060301483), (135, 1) = HFloat(6.73591164824120625), (135, 2) =
+HFloat(6.73591164824120625), (136, 1) = HFloat(6.78310561557788994), (136, 2) =
+HFloat(6.78310561557788994), (137, 1) = HFloat(6.83470108743718541), (137, 2) =
+HFloat(6.83470108743718541), (138, 1) = HFloat(6.88324840552763906), (138, 2) =
+HFloat(6.88324840552763906), (139, 1) = HFloat(6.93399434120603075), (139, 2) =
+HFloat(6.93399434120603075), (140, 1) = HFloat(6.98360776884422130), (140, 2) =
+HFloat(6.98360776884422130), (141, 1) = HFloat(7.03554842964824179), (141, 2) =
+HFloat(7.03554842964824179), (142, 1) = HFloat(7.08557345929648275), (142, 2) =
+HFloat(7.08557345929648275), (143, 1) = HFloat(7.13673127738693402), (143, 2) =
+HFloat(7.13673127738693402), (144, 1) = HFloat(7.18746548291457366), (144, 2) =
+HFloat(7.18746548291457366), (145, 1) = HFloat(7.23408494874371844), (145, 2) =
+HFloat(7.23408494874371844), (146, 1) = HFloat(7.28751611758793949), (146, 2) =
+HFloat(7.28751611758793949), (147, 1) = HFloat(7.33530559195980025), (147, 2) =
+HFloat(7.33530559195980025), (148, 1) = HFloat(7.38625913919597998), (148, 2) =
+HFloat(7.38625913919597998), (149, 1) = HFloat(7.43502818542713673), (149, 2) =
+HFloat(7.43502818542713673), (150, 1) = HFloat(7.48917994371859308), (150, 2) =
+HFloat(7.48917994371859308), (151, 1) = HFloat(7.53607138743718608), (151, 2) =
+HFloat(7.53607138743718608), (152, 1) = HFloat(7.58929359547738702), (152, 2) =
+HFloat(7.58929359547738702), (153, 1) = HFloat(7.63779986030150759), (153, 2) =
+HFloat(7.63779986030150759), (154, 1) = HFloat(7.69085809095477391), (154, 2) =
+HFloat(7.69085809095477391), (155, 1) = HFloat(7.73663837085427186), (155, 2) =
+HFloat(7.73663837085427186), (156, 1) = HFloat(7.78877676582914624), (156, 2) =
+HFloat(7.78877676582914624), (157, 1) = HFloat(7.83913988140703566), (157, 2) =
+HFloat(7.83913988140703566), (158, 1) = HFloat(7.88947009597989979), (158, 2) =
+HFloat(7.88947009597989979), (159, 1) = HFloat(7.93961515477386914), (159, 2) =
+HFloat(7.93961515477386914), (160, 1) = HFloat(7.98778885778894576), (160, 2) =
+HFloat(7.98778885778894576), (161, 1) = HFloat(8.03986590653266475), (161, 2) =
+HFloat(8.03986590653266475), (162, 1) = HFloat(8.08949911005025157), (162, 2) =
+HFloat(8.08949911005025157), (163, 1) = HFloat(8.14173571959799069), (163, 2) =
+HFloat(8.14173571959799069), (164, 1) = HFloat(8.18902243015075371), (164, 2) =
+HFloat(8.18902243015075371), (165, 1) = HFloat(8.24128309748743781), (165, 2) =
+HFloat(8.24128309748743781), (166, 1) = HFloat(8.29133971005025217), (166, 2) =
+HFloat(8.29133971005025217), (167, 1) = HFloat(8.34127448341708622), (167, 2) =
+HFloat(8.34127448341708622), (168, 1) = HFloat(8.39343154773869315), (168, 2) =
+HFloat(8.39343154773869315), (169, 1) = HFloat(8.44147010804020148), (169, 2) =
+HFloat(8.44147010804020148), (170, 1) = HFloat(8.49066816482412179), (170, 2) =
+HFloat(8.49066816482412179), (171, 1) = HFloat(8.54498866532663293), (171, 2) =
+HFloat(8.54498866532663293), (172, 1) = HFloat(8.59417142914572985), (172, 2) =
+HFloat(8.59417142914572985), (173, 1) = HFloat(8.64447001758794009), (173, 2) =
+HFloat(8.64447001758794009), (174, 1) = HFloat(8.69562238643216112), (174, 2) =
+HFloat(8.69562238643216112), (175, 1) = HFloat(8.74264136733668451), (175, 2) =
+HFloat(8.74264136733668451), (176, 1) = HFloat(8.79276207839196111), (176, 2) =
+HFloat(8.79276207839196111), (177, 1) = HFloat(8.84250126733668473), (177, 2) =
+HFloat(8.84250126733668473), (178, 1) = HFloat(8.89570673869346784), (178, 2) =
+HFloat(8.89570673869346784), (179, 1) = HFloat(8.94265826231155714), (179, 2) =
+HFloat(8.94265826231155714), (180, 1) = HFloat(8.99683057386934770), (180, 2) =
+HFloat(8.99683057386934770), (181, 1) = HFloat(9.04571690854271360), (181, 2) =
+HFloat(9.04571690854271360), (182, 1) = HFloat(9.09408738140703576), (182, 2) =
+HFloat(9.09408738140703576), (183, 1) = HFloat(9.14610117889447416), (183, 2) =
+HFloat(9.14610117889447416), (184, 1) = HFloat(9.19832538291457347), (184, 2) =
+HFloat(9.19832538291457347), (185, 1) = HFloat(9.24584167587939731), (185, 2) =
+HFloat(9.24584167587939731), (186, 1) = HFloat(9.29630186834170935), (186, 2) =
+HFloat(9.29630186834170935), (187, 1) = HFloat(9.34554608442211077), (187, 2) =
+HFloat(9.34554608442211077), (188, 1) = HFloat(9.39892733417085502), (188, 2) =
+HFloat(9.39892733417085502), (189, 1) = HFloat(9.44511695678392016), (189, 2) =
+HFloat(9.44511695678392016), (190, 1) = HFloat(9.49816741758793981), (190, 2) =
+HFloat(9.49816741758793981), (191, 1) = HFloat(9.54803763969849406), (191, 2) =
+HFloat(9.54803763969849406), (192, 1) = HFloat(9.59742616984924801), (192, 2) =
+HFloat(9.59742616984924801), (193, 1) = HFloat(9.64685398894472357), (193, 2) =
+HFloat(9.64685398894472357), (194, 1) = HFloat(9.69726723567839244), (194, 2) =
+HFloat(9.69726723567839244), (195, 1) = HFloat(9.75070443266331743), (195, 2) =
+HFloat(9.75070443266331743), (196, 1) = HFloat(9.79970110954773865), (196, 2) =
+HFloat(9.79970110954773865), (197, 1) = HFloat(9.84806712110552773), (197, 2) =
+HFloat(9.84806712110552773), (198, 1) = HFloat(9.89976959145728763), (198, 2) =
+HFloat(9.89976959145728763), (199, 1) = HFloat(9.95135951005025099), (199, 2) =
+HFloat(9.95135951005025099), (200, 1) = HFloat(10.), (200, 2) = HFloat(10.)},
+datatype = float[8],storage = rectangular,order = Fortran_order,shape = []),
+COLOUR(RGB,.47058824,0.,.54901961e-1,_ATTRIBUTE(&quot;source&quot; = &quot;mathdefault&quot;))),
+<Font encoding="UTF-8">CURVES(Matrix(200,2,{(2, 1) = HFloat(.525760502512562788e-1), (2, 2) = HFloat(.\134
+</Font>525760502512562788e-1), (3, 1) = HFloat(.983221904522613155e-1), (3, 2) = 
+HFloat(.983221904522613155e-1), (4, 1) = HFloat(.149768509547738710), (4, 2) =
+HFloat(.149768509547738710), (5, 1) = HFloat(.201555848241206065), (5, 2) = 
+HFloat(.201555848241206065), (6, 1) = HFloat(.253097050753768871), (6, 2) = 
+HFloat(.253097050753768871), (7, 1) = HFloat(.300882343216080372), (7, 2) = 
+HFloat(.300882343216080372), (8, 1) = HFloat(.350361245728643245), (8, 2) = 
+HFloat(.350361245728643245), (9, 1) = HFloat(.401532397487437187), (9, 2) = 
+HFloat(.401532397487437187), (10, 1) = HFloat(.452539442713567830), (10, 2) = 
+HFloat(.452539442713567830), (11, 1) = HFloat(.505006458291457294), (11, 2) = 
+HFloat(.505006458291457294), (12, 1) = HFloat(.551219434170854283), (12, 2) = 
+HFloat(.551219434170854283), (13, 1) = HFloat(.603244299497487479), (13, 2) = 
+HFloat(.603244299497487479), (14, 1) = HFloat(.655482783919598022), (14, 2) = 
+HFloat(.655482783919598022), (15, 1) = HFloat(.705824243216080505), (15, 2) = 
+HFloat(.705824243216080505), (16, 1) = HFloat(.751539111055276376), (16, 2) = 
+HFloat(.751539111055276376), (17, 1) = HFloat(.805898510552763847), (17, 2) = 
+HFloat(.805898510552763847), (18, 1) = HFloat(.851948052261306543), (18, 2) = 
+HFloat(.851948052261306543), (19, 1) = HFloat(.905514616582914655), (19, 2) = 
+HFloat(.905514616582914655), (20, 1) = HFloat(.952930102512562827), (20, 2) = 
+HFloat(.952930102512562827), (21, 1) = HFloat(1.00495240552763820), (21, 2) = 
+HFloat(1.00495240552763820), (22, 1) = HFloat(1.05448994020100506), (22, 2) = 
+HFloat(1.05448994020100506), (23, 1) = HFloat(1.10617716080402029), (23, 2) = 
+HFloat(1.10617716080402029), (24, 1) = HFloat(1.15364216432160815), (24, 2) = 
+HFloat(1.15364216432160815), (25, 1) = HFloat(1.20483958291457283), (25, 2) = 
+HFloat(1.20483958291457283), (26, 1) = HFloat(1.25801931206030160), (26, 2) = 
+HFloat(1.25801931206030160), (27, 1) = HFloat(1.30431242261306535), (27, 2) = 
+HFloat(1.30431242261306535), (28, 1) = HFloat(1.35431025025125651), (28, 2) = 
+HFloat(1.35431025025125651), (29, 1) = HFloat(1.40596289849246237), (29, 2) = 
+HFloat(1.40596289849246237), (30, 1) = HFloat(1.45649493768844218), (30, 2) = 
+HFloat(1.45649493768844218), (31, 1) = HFloat(1.50538728391959808), (31, 2) = 
+HFloat(1.50538728391959808), (32, 1) = HFloat(1.55967389849246230), (32, 2) = 
+HFloat(1.55967389849246230), (33, 1) = HFloat(1.60845283618090451), (33, 2) = 
+HFloat(1.60845283618090451), (34, 1) = HFloat(1.66053476381909570), (34, 2) = 
+HFloat(1.66053476381909570), (35, 1) = HFloat(1.70772873115577895), (35, 2) = 
+HFloat(1.70772873115577895), (36, 1) = HFloat(1.75932420301507553), (36, 2) = 
+HFloat(1.75932420301507553), (37, 1) = HFloat(1.80787152110552762), (37, 2) = 
+HFloat(1.80787152110552762), (38, 1) = HFloat(1.85861745678391976), (38, 2) = 
+HFloat(1.85861745678391976), (39, 1) = HFloat(1.90823088442211053), (39, 2) = 
+HFloat(1.90823088442211053), (40, 1) = HFloat(1.96017154522613057), (40, 2) = 
+HFloat(1.96017154522613057), (41, 1) = HFloat(2.01019657487437220), (41, 2) = 
+HFloat(2.01019657487437220), (42, 1) = HFloat(2.06135439296482437), (42, 2) = 
+HFloat(2.06135439296482437), (43, 1) = HFloat(2.11208859849246267), (43, 2) = 
+HFloat(2.11208859849246267), (44, 1) = HFloat(2.15870806432160833), (44, 2) = 
+HFloat(2.15870806432160833), (45, 1) = HFloat(2.21213923316582939), (45, 2) = 
+HFloat(2.21213923316582939), (46, 1) = HFloat(2.25992870753768837), (46, 2) = 
+HFloat(2.25992870753768837), (47, 1) = HFloat(2.31088225477386944), (47, 2) = 
+HFloat(2.31088225477386944), (48, 1) = HFloat(2.35965130100502529), (48, 2) = 
+HFloat(2.35965130100502529), (49, 1) = HFloat(2.41380305929648253), (49, 2) = 
+HFloat(2.41380305929648253), (50, 1) = HFloat(2.46069450301507553), (50, 2) = 
+HFloat(2.46069450301507553), (51, 1) = HFloat(2.51391671105527648), (51, 2) = 
+HFloat(2.51391671105527648), (52, 1) = HFloat(2.56242297587939705), (52, 2) = 
+HFloat(2.56242297587939705), (53, 1) = HFloat(2.61548120653266336), (53, 2) = 
+HFloat(2.61548120653266336), (54, 1) = HFloat(2.66126148643216087), (54, 2) = 
+HFloat(2.66126148643216087), (55, 1) = HFloat(2.71339988140703525), (55, 2) = 
+HFloat(2.71339988140703525), (56, 1) = HFloat(2.76376299698492467), (56, 2) = 
+HFloat(2.76376299698492467), (57, 1) = HFloat(2.81409321155778924), (57, 2) = 
+HFloat(2.81409321155778924), (58, 1) = HFloat(2.86423827035175904), (58, 2) = 
+HFloat(2.86423827035175904), (59, 1) = HFloat(2.91241197336683433), (59, 2) = 
+HFloat(2.91241197336683433), (60, 1) = HFloat(2.96448902211055287), (60, 2) = 
+HFloat(2.96448902211055287), (61, 1) = HFloat(3.01412222562814103), (61, 2) = 
+HFloat(3.01412222562814103), (62, 1) = HFloat(3.06635883517587970), (62, 2) = 
+HFloat(3.06635883517587970), (63, 1) = HFloat(3.11364554572864316), (63, 2) = 
+HFloat(3.11364554572864316), (64, 1) = HFloat(3.16590621306532682), (64, 2) = 
+HFloat(3.16590621306532682), (65, 1) = HFloat(3.21596282562814073), (65, 2) = 
+HFloat(3.21596282562814073), (66, 1) = HFloat(3.26589759899497478), (66, 2) = 
+HFloat(3.26589759899497478), (67, 1) = HFloat(3.31805466331658350), (67, 2) = 
+HFloat(3.31805466331658350), (68, 1) = HFloat(3.36609322361809049), (68, 2) = 
+HFloat(3.36609322361809049), (69, 1) = HFloat(3.41529128040201035), (69, 2) = 
+HFloat(3.41529128040201035), (70, 1) = HFloat(3.46961178090452282), (70, 2) = 
+HFloat(3.46961178090452282), (71, 1) = HFloat(3.51879454472361797), (71, 2) = 
+HFloat(3.51879454472361797), (72, 1) = HFloat(3.56909313316582955), (72, 2) = 
+HFloat(3.56909313316582955), (73, 1) = HFloat(3.62024550201005058), (73, 2) = 
+HFloat(3.62024550201005058), (74, 1) = HFloat(3.66726448291457308), (74, 2) = 
+HFloat(3.66726448291457308), (75, 1) = HFloat(3.71738519396984968), (75, 2) = 
+HFloat(3.71738519396984968), (76, 1) = HFloat(3.76712438291457286), (76, 2) = 
+HFloat(3.76712438291457286), (77, 1) = HFloat(3.82032985427135729), (77, 2) = 
+HFloat(3.82032985427135729), (78, 1) = HFloat(3.86728137788944704), (78, 2) = 
+HFloat(3.86728137788944704), (79, 1) = HFloat(3.92145368944723627), (79, 2) = 
+HFloat(3.92145368944723627), (80, 1) = HFloat(3.97034002412060305), (80, 2) = 
+HFloat(3.97034002412060305), (81, 1) = HFloat(4.01871049698492477), (81, 2) = 
+HFloat(4.01871049698492477), (82, 1) = HFloat(4.07072429447236139), (82, 2) = 
+HFloat(4.07072429447236139), (83, 1) = HFloat(4.12294849849246248), (83, 2) = 
+HFloat(4.12294849849246248), (84, 1) = HFloat(4.17046479145728632), (84, 2) = 
+HFloat(4.17046479145728632), (85, 1) = HFloat(4.22092498391959836), (85, 2) = 
+HFloat(4.22092498391959836), (86, 1) = HFloat(4.27016920000000066), (86, 2) = 
+HFloat(4.27016920000000066), (87, 1) = HFloat(4.32355044974874403), (87, 2) = 
+HFloat(4.32355044974874403), (88, 1) = HFloat(4.36974007236180917), (88, 2) = 
+HFloat(4.36974007236180917), (89, 1) = HFloat(4.42279053316582971), (89, 2) = 
+HFloat(4.42279053316582971), (90, 1) = HFloat(4.47266075527638218), (90, 2) = 
+HFloat(4.47266075527638218), (91, 1) = HFloat(4.52204928542713613), (91, 2) = 
+HFloat(4.52204928542713613), (92, 1) = HFloat(4.57147710452261347), (92, 2) = 
+HFloat(4.57147710452261347), (93, 1) = HFloat(4.62189035125628145), (93, 2) = 
+HFloat(4.62189035125628145), (94, 1) = HFloat(4.67532754824120556), (94, 2) = 
+HFloat(4.67532754824120556), (95, 1) = HFloat(4.72432422512562855), (95, 2) = 
+HFloat(4.72432422512562855), (96, 1) = HFloat(4.77269023668341674), (96, 2) = 
+HFloat(4.77269023668341674), (97, 1) = HFloat(4.82439270703517575), (97, 2) = 
+HFloat(4.82439270703517575), (98, 1) = HFloat(4.87598262562814089), (98, 2) = 
+HFloat(4.87598262562814089), (99, 1) = HFloat(4.92228764120603035), (99, 2) = 
+HFloat(4.92228764120603035), (100, 1) = HFloat(4.97713927135678436), (100, 2) =
+HFloat(4.97713927135678436), (101, 1) = HFloat(5.02303657185929620), (101, 2) =
+HFloat(5.02303657185929620), (102, 1) = HFloat(5.07671862010050212), (102, 2) =
+HFloat(5.07671862010050212), (103, 1) = HFloat(5.12795293467336677), (103, 2) =
+HFloat(5.12795293467336677), (104, 1) = HFloat(5.17369907487437164), (104, 2) =
+HFloat(5.17369907487437164), (105, 1) = HFloat(5.22514539396985001), (105, 2) =
+HFloat(5.22514539396985001), (106, 1) = HFloat(5.27693273266331708), (106, 2) =
+HFloat(5.27693273266331708), (107, 1) = HFloat(5.32847393517587964), (107, 2) =
+HFloat(5.32847393517587964), (108, 1) = HFloat(5.37625922763819108), (108, 2) =
+HFloat(5.37625922763819108), (109, 1) = HFloat(5.42573813015075412), (109, 2) =
+HFloat(5.42573813015075412), (110, 1) = HFloat(5.47690928190954729), (110, 2) =
+HFloat(5.47690928190954729), (111, 1) = HFloat(5.52791632713567882), (111, 2) =
+HFloat(5.52791632713567882), (112, 1) = HFloat(5.58038334271356806), (112, 2) =
+HFloat(5.58038334271356806), (113, 1) = HFloat(5.62659631859296461), (113, 2) =
+HFloat(5.62659631859296461), (114, 1) = HFloat(5.67862118391959836), (114, 2) =
+HFloat(5.67862118391959836), (115, 1) = HFloat(5.73085966834170879), (115, 2) =
+HFloat(5.73085966834170879), (116, 1) = HFloat(5.78120112763819183), (116, 2) =
+HFloat(5.78120112763819183), (117, 1) = HFloat(5.82691599547738726), (117, 2) =
+HFloat(5.82691599547738726), (118, 1) = HFloat(5.88127539497487462), (118, 2) =
+HFloat(5.88127539497487462), (119, 1) = HFloat(5.92732493668341665), (119, 2) =
+HFloat(5.92732493668341665), (120, 1) = HFloat(5.98089150100502565), (120, 2) =
+HFloat(5.98089150100502565), (121, 1) = HFloat(6.02830698693467326), (121, 2) =
+HFloat(6.02830698693467326), (122, 1) = HFloat(6.08032928994974853), (122, 2) =
+HFloat(6.08032928994974853), (123, 1) = HFloat(6.12986682462311538), (123, 2) =
+HFloat(6.12986682462311538), (124, 1) = HFloat(6.18155404522613061), (124, 2) =
+HFloat(6.18155404522613061), (125, 1) = HFloat(6.22901904874371937), (125, 2) =
+HFloat(6.22901904874371937), (126, 1) = HFloat(6.28021646733668426), (126, 2) =
+HFloat(6.28021646733668426), (127, 1) = HFloat(6.33339619648241214), (127, 2) =
+HFloat(6.33339619648241214), (128, 1) = HFloat(6.37968930703517678), (128, 2) =
+HFloat(6.37968930703517678), (129, 1) = HFloat(6.42968713467336705), (129, 2) =
+HFloat(6.42968713467336705), (130, 1) = HFloat(6.48133978291457247), (130, 2) =
+HFloat(6.48133978291457247), (131, 1) = HFloat(6.53187182211055362), (131, 2) =
+HFloat(6.53187182211055362), (132, 1) = HFloat(6.58076416834170885), (132, 2) =
+HFloat(6.58076416834170885), (133, 1) = HFloat(6.63505078291457373), (133, 2) =
+HFloat(6.63505078291457373), (134, 1) = HFloat(6.68382972060301483), (134, 2) =
+HFloat(6.68382972060301483), (135, 1) = HFloat(6.73591164824120625), (135, 2) =
+HFloat(6.73591164824120625), (136, 1) = HFloat(6.78310561557788994), (136, 2) =
+HFloat(6.78310561557788994), (137, 1) = HFloat(6.83470108743718541), (137, 2) =
+HFloat(6.83470108743718541), (138, 1) = HFloat(6.88324840552763906), (138, 2) =
+HFloat(6.88324840552763906), (139, 1) = HFloat(6.93399434120603075), (139, 2) =
+HFloat(6.93399434120603075), (140, 1) = HFloat(6.98360776884422130), (140, 2) =
+HFloat(6.98360776884422130), (141, 1) = HFloat(7.03554842964824179), (141, 2) =
+HFloat(7.03554842964824179), (142, 1) = HFloat(7.08557345929648275), (142, 2) =
+HFloat(7.08557345929648275), (143, 1) = HFloat(7.13673127738693402), (143, 2) =
+HFloat(7.13673127738693402), (144, 1) = HFloat(7.18746548291457366), (144, 2) =
+HFloat(7.18746548291457366), (145, 1) = HFloat(7.23408494874371844), (145, 2) =
+HFloat(7.23408494874371844), (146, 1) = HFloat(7.28751611758793949), (146, 2) =
+HFloat(7.28751611758793949), (147, 1) = HFloat(7.33530559195980025), (147, 2) =
+HFloat(7.33530559195980025), (148, 1) = HFloat(7.38625913919597998), (148, 2) =
+HFloat(7.38625913919597998), (149, 1) = HFloat(7.43502818542713673), (149, 2) =
+HFloat(7.43502818542713673), (150, 1) = HFloat(7.48917994371859308), (150, 2) =
+HFloat(7.48917994371859308), (151, 1) = HFloat(7.53607138743718608), (151, 2) =
+HFloat(7.53607138743718608), (152, 1) = HFloat(7.58929359547738702), (152, 2) =
+HFloat(7.58929359547738702), (153, 1) = HFloat(7.63779986030150759), (153, 2) =
+HFloat(7.63779986030150759), (154, 1) = HFloat(7.69085809095477391), (154, 2) =
+HFloat(7.69085809095477391), (155, 1) = HFloat(7.73663837085427186), (155, 2) =
+HFloat(7.73663837085427186), (156, 1) = HFloat(7.78877676582914624), (156, 2) =
+HFloat(7.78877676582914624), (157, 1) = HFloat(7.83913988140703566), (157, 2) =
+HFloat(7.83913988140703566), (158, 1) = HFloat(7.88947009597989979), (158, 2) =
+HFloat(7.88947009597989979), (159, 1) = HFloat(7.93961515477386914), (159, 2) =
+HFloat(7.93961515477386914), (160, 1) = HFloat(7.98778885778894576), (160, 2) =
+HFloat(7.98778885778894576), (161, 1) = HFloat(8.03986590653266475), (161, 2) =
+HFloat(8.03986590653266475), (162, 1) = HFloat(8.08949911005025157), (162, 2) =
+HFloat(8.08949911005025157), (163, 1) = HFloat(8.14173571959799069), (163, 2) =
+HFloat(8.14173571959799069), (164, 1) = HFloat(8.18902243015075371), (164, 2) =
+HFloat(8.18902243015075371), (165, 1) = HFloat(8.24128309748743781), (165, 2) =
+HFloat(8.24128309748743781), (166, 1) = HFloat(8.29133971005025217), (166, 2) =
+HFloat(8.29133971005025217), (167, 1) = HFloat(8.34127448341708622), (167, 2) =
+HFloat(8.34127448341708622), (168, 1) = HFloat(8.39343154773869315), (168, 2) =
+HFloat(8.39343154773869315), (169, 1) = HFloat(8.44147010804020148), (169, 2) =
+HFloat(8.44147010804020148), (170, 1) = HFloat(8.49066816482412179), (170, 2) =
+HFloat(8.49066816482412179), (171, 1) = HFloat(8.54498866532663293), (171, 2) =
+HFloat(8.54498866532663293), (172, 1) = HFloat(8.59417142914572985), (172, 2) =
+HFloat(8.59417142914572985), (173, 1) = HFloat(8.64447001758794009), (173, 2) =
+HFloat(8.64447001758794009), (174, 1) = HFloat(8.69562238643216112), (174, 2) =
+HFloat(8.69562238643216112), (175, 1) = HFloat(8.74264136733668451), (175, 2) =
+HFloat(8.74264136733668451), (176, 1) = HFloat(8.79276207839196111), (176, 2) =
+HFloat(8.79276207839196111), (177, 1) = HFloat(8.84250126733668473), (177, 2) =
+HFloat(8.84250126733668473), (178, 1) = HFloat(8.89570673869346784), (178, 2) =
+HFloat(8.89570673869346784), (179, 1) = HFloat(8.94265826231155714), (179, 2) =
+HFloat(8.94265826231155714), (180, 1) = HFloat(8.99683057386934770), (180, 2) =
+HFloat(8.99683057386934770), (181, 1) = HFloat(9.04571690854271360), (181, 2) =
+HFloat(9.04571690854271360), (182, 1) = HFloat(9.09408738140703576), (182, 2) =
+HFloat(9.09408738140703576), (183, 1) = HFloat(9.14610117889447416), (183, 2) =
+HFloat(9.14610117889447416), (184, 1) = HFloat(9.19832538291457347), (184, 2) =
+HFloat(9.19832538291457347), (185, 1) = HFloat(9.24584167587939731), (185, 2) =
+HFloat(9.24584167587939731), (186, 1) = HFloat(9.29630186834170935), (186, 2) =
+HFloat(9.29630186834170935), (187, 1) = HFloat(9.34554608442211077), (187, 2) =
+HFloat(9.34554608442211077), (188, 1) = HFloat(9.39892733417085502), (188, 2) =
+HFloat(9.39892733417085502), (189, 1) = HFloat(9.44511695678392016), (189, 2) =
+HFloat(9.44511695678392016), (190, 1) = HFloat(9.49816741758793981), (190, 2) =
+HFloat(9.49816741758793981), (191, 1) = HFloat(9.54803763969849406), (191, 2) =
+HFloat(9.54803763969849406), (192, 1) = HFloat(9.59742616984924801), (192, 2) =
+HFloat(9.59742616984924801), (193, 1) = HFloat(9.64685398894472357), (193, 2) =
+HFloat(9.64685398894472357), (194, 1) = HFloat(9.69726723567839244), (194, 2) =
+HFloat(9.69726723567839244), (195, 1) = HFloat(9.75070443266331743), (195, 2) =
+HFloat(9.75070443266331743), (196, 1) = HFloat(9.79970110954773865), (196, 2) =
+HFloat(9.79970110954773865), (197, 1) = HFloat(9.84806712110552773), (197, 2) =
+HFloat(9.84806712110552773), (198, 1) = HFloat(9.89976959145728763), (198, 2) =
+HFloat(9.89976959145728763), (199, 1) = HFloat(9.95135951005025099), (199, 2) =
+HFloat(9.95135951005025099), (200, 1) = HFloat(10.), (200, 2) = HFloat(10.)},
+datatype = float[8],storage = rectangular,order = Fortran_order,shape = []),
+COLOUR(RGB,0.,.54901961e-1,.47058824,_ATTRIBUTE(&quot;source&quot; = &quot;mathdefault&quot;))),
+<Font encoding="UTF-8">CURVES(Matrix(200,2,{(2, 1) = HFloat(.525760502512562788e-1), (2, 2) = HFloat(.\134
+</Font>525760502512562788e-1), (3, 1) = HFloat(.983221904522613155e-1), (3, 2) = 
+HFloat(.983221904522613155e-1), (4, 1) = HFloat(.149768509547738710), (4, 2) =
+HFloat(.149768509547738710), (5, 1) = HFloat(.201555848241206065), (5, 2) = 
+HFloat(.201555848241206065), (6, 1) = HFloat(.253097050753768871), (6, 2) = 
+HFloat(.253097050753768871), (7, 1) = HFloat(.300882343216080372), (7, 2) = 
+HFloat(.300882343216080372), (8, 1) = HFloat(.350361245728643245), (8, 2) = 
+HFloat(.350361245728643245), (9, 1) = HFloat(.401532397487437187), (9, 2) = 
+HFloat(.401532397487437187), (10, 1) = HFloat(.452539442713567830), (10, 2) = 
+HFloat(.452539442713567830), (11, 1) = HFloat(.505006458291457294), (11, 2) = 
+HFloat(.505006458291457294), (12, 1) = HFloat(.551219434170854283), (12, 2) = 
+HFloat(.551219434170854283), (13, 1) = HFloat(.603244299497487479), (13, 2) = 
+HFloat(.603244299497487479), (14, 1) = HFloat(.655482783919598022), (14, 2) = 
+HFloat(.655482783919598022), (15, 1) = HFloat(.705824243216080505), (15, 2) = 
+HFloat(.705824243216080505), (16, 1) = HFloat(.751539111055276376), (16, 2) = 
+HFloat(.751539111055276376), (17, 1) = HFloat(.805898510552763847), (17, 2) = 
+HFloat(.805898510552763847), (18, 1) = HFloat(.851948052261306543), (18, 2) = 
+HFloat(.851948052261306543), (19, 1) = HFloat(.905514616582914655), (19, 2) = 
+HFloat(.905514616582914655), (20, 1) = HFloat(.952930102512562827), (20, 2) = 
+HFloat(.952930102512562827), (21, 1) = HFloat(1.00495240552763820), (21, 2) = 
+HFloat(1.00495240552763820), (22, 1) = HFloat(1.05448994020100506), (22, 2) = 
+HFloat(1.05448994020100506), (23, 1) = HFloat(1.10617716080402029), (23, 2) = 
+HFloat(1.10617716080402029), (24, 1) = HFloat(1.15364216432160815), (24, 2) = 
+HFloat(1.15364216432160815), (25, 1) = HFloat(1.20483958291457283), (25, 2) = 
+HFloat(1.20483958291457283), (26, 1) = HFloat(1.25801931206030160), (26, 2) = 
+HFloat(1.25801931206030160), (27, 1) = HFloat(1.30431242261306535), (27, 2) = 
+HFloat(1.30431242261306535), (28, 1) = HFloat(1.35431025025125651), (28, 2) = 
+HFloat(1.35431025025125651), (29, 1) = HFloat(1.40596289849246237), (29, 2) = 
+HFloat(1.40596289849246237), (30, 1) = HFloat(1.45649493768844218), (30, 2) = 
+HFloat(1.45649493768844218), (31, 1) = HFloat(1.50538728391959808), (31, 2) = 
+HFloat(1.50538728391959808), (32, 1) = HFloat(1.55967389849246230), (32, 2) = 
+HFloat(1.55967389849246230), (33, 1) = HFloat(1.60845283618090451), (33, 2) = 
+HFloat(1.60845283618090451), (34, 1) = HFloat(1.66053476381909570), (34, 2) = 
+HFloat(1.66053476381909570), (35, 1) = HFloat(1.70772873115577895), (35, 2) = 
+HFloat(1.70772873115577895), (36, 1) = HFloat(1.75932420301507553), (36, 2) = 
+HFloat(1.75932420301507553), (37, 1) = HFloat(1.80787152110552762), (37, 2) = 
+HFloat(1.80787152110552762), (38, 1) = HFloat(1.85861745678391976), (38, 2) = 
+HFloat(1.85861745678391976), (39, 1) = HFloat(1.90823088442211053), (39, 2) = 
+HFloat(1.90823088442211053), (40, 1) = HFloat(1.96017154522613057), (40, 2) = 
+HFloat(1.96017154522613057), (41, 1) = HFloat(2.01019657487437220), (41, 2) = 
+HFloat(2.01019657487437220), (42, 1) = HFloat(2.06135439296482437), (42, 2) = 
+HFloat(2.06135439296482437), (43, 1) = HFloat(2.11208859849246267), (43, 2) = 
+HFloat(2.11208859849246267), (44, 1) = HFloat(2.15870806432160833), (44, 2) = 
+HFloat(2.15870806432160833), (45, 1) = HFloat(2.21213923316582939), (45, 2) = 
+HFloat(2.21213923316582939), (46, 1) = HFloat(2.25992870753768837), (46, 2) = 
+HFloat(2.25992870753768837), (47, 1) = HFloat(2.31088225477386944), (47, 2) = 
+HFloat(2.31088225477386944), (48, 1) = HFloat(2.35965130100502529), (48, 2) = 
+HFloat(2.35965130100502529), (49, 1) = HFloat(2.41380305929648253), (49, 2) = 
+HFloat(2.41380305929648253), (50, 1) = HFloat(2.46069450301507553), (50, 2) = 
+HFloat(2.46069450301507553), (51, 1) = HFloat(2.51391671105527648), (51, 2) = 
+HFloat(2.51391671105527648), (52, 1) = HFloat(2.56242297587939705), (52, 2) = 
+HFloat(2.56242297587939705), (53, 1) = HFloat(2.61548120653266336), (53, 2) = 
+HFloat(2.61548120653266336), (54, 1) = HFloat(2.66126148643216087), (54, 2) = 
+HFloat(2.66126148643216087), (55, 1) = HFloat(2.71339988140703525), (55, 2) = 
+HFloat(2.71339988140703525), (56, 1) = HFloat(2.76376299698492467), (56, 2) = 
+HFloat(2.76376299698492467), (57, 1) = HFloat(2.81409321155778924), (57, 2) = 
+HFloat(2.81409321155778924), (58, 1) = HFloat(2.86423827035175904), (58, 2) = 
+HFloat(2.86423827035175904), (59, 1) = HFloat(2.91241197336683433), (59, 2) = 
+HFloat(2.91241197336683433), (60, 1) = HFloat(2.96448902211055287), (60, 2) = 
+HFloat(2.96448902211055287), (61, 1) = HFloat(3.01412222562814103), (61, 2) = 
+HFloat(3.01412222562814103), (62, 1) = HFloat(3.06635883517587970), (62, 2) = 
+HFloat(3.06635883517587970), (63, 1) = HFloat(3.11364554572864316), (63, 2) = 
+HFloat(3.11364554572864316), (64, 1) = HFloat(3.16590621306532682), (64, 2) = 
+HFloat(3.16590621306532682), (65, 1) = HFloat(3.21596282562814073), (65, 2) = 
+HFloat(3.21596282562814073), (66, 1) = HFloat(3.26589759899497478), (66, 2) = 
+HFloat(3.26589759899497478), (67, 1) = HFloat(3.31805466331658350), (67, 2) = 
+HFloat(3.31805466331658350), (68, 1) = HFloat(3.36609322361809049), (68, 2) = 
+HFloat(3.36609322361809049), (69, 1) = HFloat(3.41529128040201035), (69, 2) = 
+HFloat(3.41529128040201035), (70, 1) = HFloat(3.46961178090452282), (70, 2) = 
+HFloat(3.46961178090452282), (71, 1) = HFloat(3.51879454472361797), (71, 2) = 
+HFloat(3.51879454472361797), (72, 1) = HFloat(3.56909313316582955), (72, 2) = 
+HFloat(3.56909313316582955), (73, 1) = HFloat(3.62024550201005058), (73, 2) = 
+HFloat(3.62024550201005058), (74, 1) = HFloat(3.66726448291457308), (74, 2) = 
+HFloat(3.66726448291457308), (75, 1) = HFloat(3.71738519396984968), (75, 2) = 
+HFloat(3.71738519396984968), (76, 1) = HFloat(3.76712438291457286), (76, 2) = 
+HFloat(3.76712438291457286), (77, 1) = HFloat(3.82032985427135729), (77, 2) = 
+HFloat(3.82032985427135729), (78, 1) = HFloat(3.86728137788944704), (78, 2) = 
+HFloat(3.86728137788944704), (79, 1) = HFloat(3.92145368944723627), (79, 2) = 
+HFloat(3.92145368944723627), (80, 1) = HFloat(3.97034002412060305), (80, 2) = 
+HFloat(3.97034002412060305), (81, 1) = HFloat(4.01871049698492477), (81, 2) = 
+HFloat(4.01871049698492477), (82, 1) = HFloat(4.07072429447236139), (82, 2) = 
+HFloat(4.07072429447236139), (83, 1) = HFloat(4.12294849849246248), (83, 2) = 
+HFloat(4.12294849849246248), (84, 1) = HFloat(4.17046479145728632), (84, 2) = 
+HFloat(4.17046479145728632), (85, 1) = HFloat(4.22092498391959836), (85, 2) = 
+HFloat(4.22092498391959836), (86, 1) = HFloat(4.27016920000000066), (86, 2) = 
+HFloat(4.27016920000000066), (87, 1) = HFloat(4.32355044974874403), (87, 2) = 
+HFloat(4.32355044974874403), (88, 1) = HFloat(4.36974007236180917), (88, 2) = 
+HFloat(4.36974007236180917), (89, 1) = HFloat(4.42279053316582971), (89, 2) = 
+HFloat(4.42279053316582971), (90, 1) = HFloat(4.47266075527638218), (90, 2) = 
+HFloat(4.47266075527638218), (91, 1) = HFloat(4.52204928542713613), (91, 2) = 
+HFloat(4.52204928542713613), (92, 1) = HFloat(4.57147710452261347), (92, 2) = 
+HFloat(4.57147710452261347), (93, 1) = HFloat(4.62189035125628145), (93, 2) = 
+HFloat(4.62189035125628145), (94, 1) = HFloat(4.67532754824120556), (94, 2) = 
+HFloat(4.67532754824120556), (95, 1) = HFloat(4.72432422512562855), (95, 2) = 
+HFloat(4.72432422512562855), (96, 1) = HFloat(4.77269023668341674), (96, 2) = 
+HFloat(4.77269023668341674), (97, 1) = HFloat(4.82439270703517575), (97, 2) = 
+HFloat(4.82439270703517575), (98, 1) = HFloat(4.87598262562814089), (98, 2) = 
+HFloat(4.87598262562814089), (99, 1) = HFloat(4.92228764120603035), (99, 2) = 
+HFloat(4.92228764120603035), (100, 1) = HFloat(4.97713927135678436), (100, 2) =
+HFloat(4.97713927135678436), (101, 1) = HFloat(5.02303657185929620), (101, 2) =
+HFloat(5.02303657185929620), (102, 1) = HFloat(5.07671862010050212), (102, 2) =
+HFloat(5.07671862010050212), (103, 1) = HFloat(5.12795293467336677), (103, 2) =
+HFloat(5.12795293467336677), (104, 1) = HFloat(5.17369907487437164), (104, 2) =
+HFloat(5.17369907487437164), (105, 1) = HFloat(5.22514539396985001), (105, 2) =
+HFloat(5.22514539396985001), (106, 1) = HFloat(5.27693273266331708), (106, 2) =
+HFloat(5.27693273266331708), (107, 1) = HFloat(5.32847393517587964), (107, 2) =
+HFloat(5.32847393517587964), (108, 1) = HFloat(5.37625922763819108), (108, 2) =
+HFloat(5.37625922763819108), (109, 1) = HFloat(5.42573813015075412), (109, 2) =
+HFloat(5.42573813015075412), (110, 1) = HFloat(5.47690928190954729), (110, 2) =
+HFloat(5.47690928190954729), (111, 1) = HFloat(5.52791632713567882), (111, 2) =
+HFloat(5.52791632713567882), (112, 1) = HFloat(5.58038334271356806), (112, 2) =
+HFloat(5.58038334271356806), (113, 1) = HFloat(5.62659631859296461), (113, 2) =
+HFloat(5.62659631859296461), (114, 1) = HFloat(5.67862118391959836), (114, 2) =
+HFloat(5.67862118391959836), (115, 1) = HFloat(5.73085966834170879), (115, 2) =
+HFloat(5.73085966834170879), (116, 1) = HFloat(5.78120112763819183), (116, 2) =
+HFloat(5.78120112763819183), (117, 1) = HFloat(5.82691599547738726), (117, 2) =
+HFloat(5.82691599547738726), (118, 1) = HFloat(5.88127539497487462), (118, 2) =
+HFloat(5.88127539497487462), (119, 1) = HFloat(5.92732493668341665), (119, 2) =
+HFloat(5.92732493668341665), (120, 1) = HFloat(5.98089150100502565), (120, 2) =
+HFloat(5.98089150100502565), (121, 1) = HFloat(6.02830698693467326), (121, 2) =
+HFloat(6.02830698693467326), (122, 1) = HFloat(6.08032928994974853), (122, 2) =
+HFloat(6.08032928994974853), (123, 1) = HFloat(6.12986682462311538), (123, 2) =
+HFloat(6.12986682462311538), (124, 1) = HFloat(6.18155404522613061), (124, 2) =
+HFloat(6.18155404522613061), (125, 1) = HFloat(6.22901904874371937), (125, 2) =
+HFloat(6.22901904874371937), (126, 1) = HFloat(6.28021646733668426), (126, 2) =
+HFloat(6.28021646733668426), (127, 1) = HFloat(6.33339619648241214), (127, 2) =
+HFloat(6.33339619648241214), (128, 1) = HFloat(6.37968930703517678), (128, 2) =
+HFloat(6.37968930703517678), (129, 1) = HFloat(6.42968713467336705), (129, 2) =
+HFloat(6.42968713467336705), (130, 1) = HFloat(6.48133978291457247), (130, 2) =
+HFloat(6.48133978291457247), (131, 1) = HFloat(6.53187182211055362), (131, 2) =
+HFloat(6.53187182211055362), (132, 1) = HFloat(6.58076416834170885), (132, 2) =
+HFloat(6.58076416834170885), (133, 1) = HFloat(6.63505078291457373), (133, 2) =
+HFloat(6.63505078291457373), (134, 1) = HFloat(6.68382972060301483), (134, 2) =
+HFloat(6.68382972060301483), (135, 1) = HFloat(6.73591164824120625), (135, 2) =
+HFloat(6.73591164824120625), (136, 1) = HFloat(6.78310561557788994), (136, 2) =
+HFloat(6.78310561557788994), (137, 1) = HFloat(6.83470108743718541), (137, 2) =
+HFloat(6.83470108743718541), (138, 1) = HFloat(6.88324840552763906), (138, 2) =
+HFloat(6.88324840552763906), (139, 1) = HFloat(6.93399434120603075), (139, 2) =
+HFloat(6.93399434120603075), (140, 1) = HFloat(6.98360776884422130), (140, 2) =
+HFloat(6.98360776884422130), (141, 1) = HFloat(7.03554842964824179), (141, 2) =
+HFloat(7.03554842964824179), (142, 1) = HFloat(7.08557345929648275), (142, 2) =
+HFloat(7.08557345929648275), (143, 1) = HFloat(7.13673127738693402), (143, 2) =
+HFloat(7.13673127738693402), (144, 1) = HFloat(7.18746548291457366), (144, 2) =
+HFloat(7.18746548291457366), (145, 1) = HFloat(7.23408494874371844), (145, 2) =
+HFloat(7.23408494874371844), (146, 1) = HFloat(7.28751611758793949), (146, 2) =
+HFloat(7.28751611758793949), (147, 1) = HFloat(7.33530559195980025), (147, 2) =
+HFloat(7.33530559195980025), (148, 1) = HFloat(7.38625913919597998), (148, 2) =
+HFloat(7.38625913919597998), (149, 1) = HFloat(7.43502818542713673), (149, 2) =
+HFloat(7.43502818542713673), (150, 1) = HFloat(7.48917994371859308), (150, 2) =
+HFloat(7.48917994371859308), (151, 1) = HFloat(7.53607138743718608), (151, 2) =
+HFloat(7.53607138743718608), (152, 1) = HFloat(7.58929359547738702), (152, 2) =
+HFloat(7.58929359547738702), (153, 1) = HFloat(7.63779986030150759), (153, 2) =
+HFloat(7.63779986030150759), (154, 1) = HFloat(7.69085809095477391), (154, 2) =
+HFloat(7.69085809095477391), (155, 1) = HFloat(7.73663837085427186), (155, 2) =
+HFloat(7.73663837085427186), (156, 1) = HFloat(7.78877676582914624), (156, 2) =
+HFloat(7.78877676582914624), (157, 1) = HFloat(7.83913988140703566), (157, 2) =
+HFloat(7.83913988140703566), (158, 1) = HFloat(7.88947009597989979), (158, 2) =
+HFloat(7.88947009597989979), (159, 1) = HFloat(7.93961515477386914), (159, 2) =
+HFloat(7.93961515477386914), (160, 1) = HFloat(7.98778885778894576), (160, 2) =
+HFloat(7.98778885778894576), (161, 1) = HFloat(8.03986590653266475), (161, 2) =
+HFloat(8.03986590653266475), (162, 1) = HFloat(8.08949911005025157), (162, 2) =
+HFloat(8.08949911005025157), (163, 1) = HFloat(8.14173571959799069), (163, 2) =
+HFloat(8.14173571959799069), (164, 1) = HFloat(8.18902243015075371), (164, 2) =
+HFloat(8.18902243015075371), (165, 1) = HFloat(8.24128309748743781), (165, 2) =
+HFloat(8.24128309748743781), (166, 1) = HFloat(8.29133971005025217), (166, 2) =
+HFloat(8.29133971005025217), (167, 1) = HFloat(8.34127448341708622), (167, 2) =
+HFloat(8.34127448341708622), (168, 1) = HFloat(8.39343154773869315), (168, 2) =
+HFloat(8.39343154773869315), (169, 1) = HFloat(8.44147010804020148), (169, 2) =
+HFloat(8.44147010804020148), (170, 1) = HFloat(8.49066816482412179), (170, 2) =
+HFloat(8.49066816482412179), (171, 1) = HFloat(8.54498866532663293), (171, 2) =
+HFloat(8.54498866532663293), (172, 1) = HFloat(8.59417142914572985), (172, 2) =
+HFloat(8.59417142914572985), (173, 1) = HFloat(8.64447001758794009), (173, 2) =
+HFloat(8.64447001758794009), (174, 1) = HFloat(8.69562238643216112), (174, 2) =
+HFloat(8.69562238643216112), (175, 1) = HFloat(8.74264136733668451), (175, 2) =
+HFloat(8.74264136733668451), (176, 1) = HFloat(8.79276207839196111), (176, 2) =
+HFloat(8.79276207839196111), (177, 1) = HFloat(8.84250126733668473), (177, 2) =
+HFloat(8.84250126733668473), (178, 1) = HFloat(8.89570673869346784), (178, 2) =
+HFloat(8.89570673869346784), (179, 1) = HFloat(8.94265826231155714), (179, 2) =
+HFloat(8.94265826231155714), (180, 1) = HFloat(8.99683057386934770), (180, 2) =
+HFloat(8.99683057386934770), (181, 1) = HFloat(9.04571690854271360), (181, 2) =
+HFloat(9.04571690854271360), (182, 1) = HFloat(9.09408738140703576), (182, 2) =
+HFloat(9.09408738140703576), (183, 1) = HFloat(9.14610117889447416), (183, 2) =
+HFloat(9.14610117889447416), (184, 1) = HFloat(9.19832538291457347), (184, 2) =
+HFloat(9.19832538291457347), (185, 1) = HFloat(9.24584167587939731), (185, 2) =
+HFloat(9.24584167587939731), (186, 1) = HFloat(9.29630186834170935), (186, 2) =
+HFloat(9.29630186834170935), (187, 1) = HFloat(9.34554608442211077), (187, 2) =
+HFloat(9.34554608442211077), (188, 1) = HFloat(9.39892733417085502), (188, 2) =
+HFloat(9.39892733417085502), (189, 1) = HFloat(9.44511695678392016), (189, 2) =
+HFloat(9.44511695678392016), (190, 1) = HFloat(9.49816741758793981), (190, 2) =
+HFloat(9.49816741758793981), (191, 1) = HFloat(9.54803763969849406), (191, 2) =
+HFloat(9.54803763969849406), (192, 1) = HFloat(9.59742616984924801), (192, 2) =
+HFloat(9.59742616984924801), (193, 1) = HFloat(9.64685398894472357), (193, 2) =
+HFloat(9.64685398894472357), (194, 1) = HFloat(9.69726723567839244), (194, 2) =
+HFloat(9.69726723567839244), (195, 1) = HFloat(9.75070443266331743), (195, 2) =
+HFloat(9.75070443266331743), (196, 1) = HFloat(9.79970110954773865), (196, 2) =
+HFloat(9.79970110954773865), (197, 1) = HFloat(9.84806712110552773), (197, 2) =
+HFloat(9.84806712110552773), (198, 1) = HFloat(9.89976959145728763), (198, 2) =
+HFloat(9.89976959145728763), (199, 1) = HFloat(9.95135951005025099), (199, 2) =
+HFloat(9.95135951005025099), (200, 1) = HFloat(10.), (200, 2) = HFloat(10.)},
+datatype = float[8],storage = rectangular,order = Fortran_order,shape = []),
+COLOUR(RGB,.29019608,.47058824,0.,_ATTRIBUTE(&quot;source&quot; = &quot;mathdefault&quot;))),CURVES
+<Font encoding="UTF-8">(Matrix(200,2,{(2, 1) = HFloat(.525760502512562788e-1), (2, 2) = HFloat(.\134
+</Font>525760502512562788e-1), (3, 1) = HFloat(.983221904522613155e-1), (3, 2) = 
+HFloat(.983221904522613155e-1), (4, 1) = HFloat(.149768509547738710), (4, 2) =
+HFloat(.149768509547738710), (5, 1) = HFloat(.201555848241206065), (5, 2) = 
+HFloat(.201555848241206065), (6, 1) = HFloat(.253097050753768871), (6, 2) = 
+HFloat(.253097050753768871), (7, 1) = HFloat(.300882343216080372), (7, 2) = 
+HFloat(.300882343216080372), (8, 1) = HFloat(.350361245728643245), (8, 2) = 
+HFloat(.350361245728643245), (9, 1) = HFloat(.401532397487437187), (9, 2) = 
+HFloat(.401532397487437187), (10, 1) = HFloat(.452539442713567830), (10, 2) = 
+HFloat(.452539442713567830), (11, 1) = HFloat(.505006458291457294), (11, 2) = 
+HFloat(.505006458291457294), (12, 1) = HFloat(.551219434170854283), (12, 2) = 
+HFloat(.551219434170854283), (13, 1) = HFloat(.603244299497487479), (13, 2) = 
+HFloat(.603244299497487479), (14, 1) = HFloat(.655482783919598022), (14, 2) = 
+HFloat(.655482783919598022), (15, 1) = HFloat(.705824243216080505), (15, 2) = 
+HFloat(.705824243216080505), (16, 1) = HFloat(.751539111055276376), (16, 2) = 
+HFloat(.751539111055276376), (17, 1) = HFloat(.805898510552763847), (17, 2) = 
+HFloat(.805898510552763847), (18, 1) = HFloat(.851948052261306543), (18, 2) = 
+HFloat(.851948052261306543), (19, 1) = HFloat(.905514616582914655), (19, 2) = 
+HFloat(.905514616582914655), (20, 1) = HFloat(.952930102512562827), (20, 2) = 
+HFloat(.952930102512562827), (21, 1) = HFloat(1.00495240552763820), (21, 2) = 
+HFloat(1.00495240552763820), (22, 1) = HFloat(1.05448994020100506), (22, 2) = 
+HFloat(1.05448994020100506), (23, 1) = HFloat(1.10617716080402029), (23, 2) = 
+HFloat(1.10617716080402029), (24, 1) = HFloat(1.15364216432160815), (24, 2) = 
+HFloat(1.15364216432160815), (25, 1) = HFloat(1.20483958291457283), (25, 2) = 
+HFloat(1.20483958291457283), (26, 1) = HFloat(1.25801931206030160), (26, 2) = 
+HFloat(1.25801931206030160), (27, 1) = HFloat(1.30431242261306535), (27, 2) = 
+HFloat(1.30431242261306535), (28, 1) = HFloat(1.35431025025125651), (28, 2) = 
+HFloat(1.35431025025125651), (29, 1) = HFloat(1.40596289849246237), (29, 2) = 
+HFloat(1.40596289849246237), (30, 1) = HFloat(1.45649493768844218), (30, 2) = 
+HFloat(1.45649493768844218), (31, 1) = HFloat(1.50538728391959808), (31, 2) = 
+HFloat(1.50538728391959808), (32, 1) = HFloat(1.55967389849246230), (32, 2) = 
+HFloat(1.55967389849246230), (33, 1) = HFloat(1.60845283618090451), (33, 2) = 
+HFloat(1.60845283618090451), (34, 1) = HFloat(1.66053476381909570), (34, 2) = 
+HFloat(1.66053476381909570), (35, 1) = HFloat(1.70772873115577895), (35, 2) = 
+HFloat(1.70772873115577895), (36, 1) = HFloat(1.75932420301507553), (36, 2) = 
+HFloat(1.75932420301507553), (37, 1) = HFloat(1.80787152110552762), (37, 2) = 
+HFloat(1.80787152110552762), (38, 1) = HFloat(1.85861745678391976), (38, 2) = 
+HFloat(1.85861745678391976), (39, 1) = HFloat(1.90823088442211053), (39, 2) = 
+HFloat(1.90823088442211053), (40, 1) = HFloat(1.96017154522613057), (40, 2) = 
+HFloat(1.96017154522613057), (41, 1) = HFloat(2.01019657487437220), (41, 2) = 
+HFloat(2.01019657487437220), (42, 1) = HFloat(2.06135439296482437), (42, 2) = 
+HFloat(2.06135439296482437), (43, 1) = HFloat(2.11208859849246267), (43, 2) = 
+HFloat(2.11208859849246267), (44, 1) = HFloat(2.15870806432160833), (44, 2) = 
+HFloat(2.15870806432160833), (45, 1) = HFloat(2.21213923316582939), (45, 2) = 
+HFloat(2.21213923316582939), (46, 1) = HFloat(2.25992870753768837), (46, 2) = 
+HFloat(2.25992870753768837), (47, 1) = HFloat(2.31088225477386944), (47, 2) = 
+HFloat(2.31088225477386944), (48, 1) = HFloat(2.35965130100502529), (48, 2) = 
+HFloat(2.35965130100502529), (49, 1) = HFloat(2.41380305929648253), (49, 2) = 
+HFloat(2.41380305929648253), (50, 1) = HFloat(2.46069450301507553), (50, 2) = 
+HFloat(2.46069450301507553), (51, 1) = HFloat(2.51391671105527648), (51, 2) = 
+HFloat(2.51391671105527648), (52, 1) = HFloat(2.56242297587939705), (52, 2) = 
+HFloat(2.56242297587939705), (53, 1) = HFloat(2.61548120653266336), (53, 2) = 
+HFloat(2.61548120653266336), (54, 1) = HFloat(2.66126148643216087), (54, 2) = 
+HFloat(2.66126148643216087), (55, 1) = HFloat(2.71339988140703525), (55, 2) = 
+HFloat(2.71339988140703525), (56, 1) = HFloat(2.76376299698492467), (56, 2) = 
+HFloat(2.76376299698492467), (57, 1) = HFloat(2.81409321155778924), (57, 2) = 
+HFloat(2.81409321155778924), (58, 1) = HFloat(2.86423827035175904), (58, 2) = 
+HFloat(2.86423827035175904), (59, 1) = HFloat(2.91241197336683433), (59, 2) = 
+HFloat(2.91241197336683433), (60, 1) = HFloat(2.96448902211055287), (60, 2) = 
+HFloat(2.96448902211055287), (61, 1) = HFloat(3.01412222562814103), (61, 2) = 
+HFloat(3.01412222562814103), (62, 1) = HFloat(3.06635883517587970), (62, 2) = 
+HFloat(3.06635883517587970), (63, 1) = HFloat(3.11364554572864316), (63, 2) = 
+HFloat(3.11364554572864316), (64, 1) = HFloat(3.16590621306532682), (64, 2) = 
+HFloat(3.16590621306532682), (65, 1) = HFloat(3.21596282562814073), (65, 2) = 
+HFloat(3.21596282562814073), (66, 1) = HFloat(3.26589759899497478), (66, 2) = 
+HFloat(3.26589759899497478), (67, 1) = HFloat(3.31805466331658350), (67, 2) = 
+HFloat(3.31805466331658350), (68, 1) = HFloat(3.36609322361809049), (68, 2) = 
+HFloat(3.36609322361809049), (69, 1) = HFloat(3.41529128040201035), (69, 2) = 
+HFloat(3.41529128040201035), (70, 1) = HFloat(3.46961178090452282), (70, 2) = 
+HFloat(3.46961178090452282), (71, 1) = HFloat(3.51879454472361797), (71, 2) = 
+HFloat(3.51879454472361797), (72, 1) = HFloat(3.56909313316582955), (72, 2) = 
+HFloat(3.56909313316582955), (73, 1) = HFloat(3.62024550201005058), (73, 2) = 
+HFloat(3.62024550201005058), (74, 1) = HFloat(3.66726448291457308), (74, 2) = 
+HFloat(3.66726448291457308), (75, 1) = HFloat(3.71738519396984968), (75, 2) = 
+HFloat(3.71738519396984968), (76, 1) = HFloat(3.76712438291457286), (76, 2) = 
+HFloat(3.76712438291457286), (77, 1) = HFloat(3.82032985427135729), (77, 2) = 
+HFloat(3.82032985427135729), (78, 1) = HFloat(3.86728137788944704), (78, 2) = 
+HFloat(3.86728137788944704), (79, 1) = HFloat(3.92145368944723627), (79, 2) = 
+HFloat(3.92145368944723627), (80, 1) = HFloat(3.97034002412060305), (80, 2) = 
+HFloat(3.97034002412060305), (81, 1) = HFloat(4.01871049698492477), (81, 2) = 
+HFloat(4.01871049698492477), (82, 1) = HFloat(4.07072429447236139), (82, 2) = 
+HFloat(4.07072429447236139), (83, 1) = HFloat(4.12294849849246248), (83, 2) = 
+HFloat(4.12294849849246248), (84, 1) = HFloat(4.17046479145728632), (84, 2) = 
+HFloat(4.17046479145728632), (85, 1) = HFloat(4.22092498391959836), (85, 2) = 
+HFloat(4.22092498391959836), (86, 1) = HFloat(4.27016920000000066), (86, 2) = 
+HFloat(4.27016920000000066), (87, 1) = HFloat(4.32355044974874403), (87, 2) = 
+HFloat(4.32355044974874403), (88, 1) = HFloat(4.36974007236180917), (88, 2) = 
+HFloat(4.36974007236180917), (89, 1) = HFloat(4.42279053316582971), (89, 2) = 
+HFloat(4.42279053316582971), (90, 1) = HFloat(4.47266075527638218), (90, 2) = 
+HFloat(4.47266075527638218), (91, 1) = HFloat(4.52204928542713613), (91, 2) = 
+HFloat(4.52204928542713613), (92, 1) = HFloat(4.57147710452261347), (92, 2) = 
+HFloat(4.57147710452261347), (93, 1) = HFloat(4.62189035125628145), (93, 2) = 
+HFloat(4.62189035125628145), (94, 1) = HFloat(4.67532754824120556), (94, 2) = 
+HFloat(4.67532754824120556), (95, 1) = HFloat(4.72432422512562855), (95, 2) = 
+HFloat(4.72432422512562855), (96, 1) = HFloat(4.77269023668341674), (96, 2) = 
+HFloat(4.77269023668341674), (97, 1) = HFloat(4.82439270703517575), (97, 2) = 
+HFloat(4.82439270703517575), (98, 1) = HFloat(4.87598262562814089), (98, 2) = 
+HFloat(4.87598262562814089), (99, 1) = HFloat(4.92228764120603035), (99, 2) = 
+HFloat(4.92228764120603035), (100, 1) = HFloat(4.97713927135678436), (100, 2) =
+HFloat(4.97713927135678436), (101, 1) = HFloat(5.02303657185929620), (101, 2) =
+HFloat(5.02303657185929620), (102, 1) = HFloat(5.07671862010050212), (102, 2) =
+HFloat(5.07671862010050212), (103, 1) = HFloat(5.12795293467336677), (103, 2) =
+HFloat(5.12795293467336677), (104, 1) = HFloat(5.17369907487437164), (104, 2) =
+HFloat(5.17369907487437164), (105, 1) = HFloat(5.22514539396985001), (105, 2) =
+HFloat(5.22514539396985001), (106, 1) = HFloat(5.27693273266331708), (106, 2) =
+HFloat(5.27693273266331708), (107, 1) = HFloat(5.32847393517587964), (107, 2) =
+HFloat(5.32847393517587964), (108, 1) = HFloat(5.37625922763819108), (108, 2) =
+HFloat(5.37625922763819108), (109, 1) = HFloat(5.42573813015075412), (109, 2) =
+HFloat(5.42573813015075412), (110, 1) = HFloat(5.47690928190954729), (110, 2) =
+HFloat(5.47690928190954729), (111, 1) = HFloat(5.52791632713567882), (111, 2) =
+HFloat(5.52791632713567882), (112, 1) = HFloat(5.58038334271356806), (112, 2) =
+HFloat(5.58038334271356806), (113, 1) = HFloat(5.62659631859296461), (113, 2) =
+HFloat(5.62659631859296461), (114, 1) = HFloat(5.67862118391959836), (114, 2) =
+HFloat(5.67862118391959836), (115, 1) = HFloat(5.73085966834170879), (115, 2) =
+HFloat(5.73085966834170879), (116, 1) = HFloat(5.78120112763819183), (116, 2) =
+HFloat(5.78120112763819183), (117, 1) = HFloat(5.82691599547738726), (117, 2) =
+HFloat(5.82691599547738726), (118, 1) = HFloat(5.88127539497487462), (118, 2) =
+HFloat(5.88127539497487462), (119, 1) = HFloat(5.92732493668341665), (119, 2) =
+HFloat(5.92732493668341665), (120, 1) = HFloat(5.98089150100502565), (120, 2) =
+HFloat(5.98089150100502565), (121, 1) = HFloat(6.02830698693467326), (121, 2) =
+HFloat(6.02830698693467326), (122, 1) = HFloat(6.08032928994974853), (122, 2) =
+HFloat(6.08032928994974853), (123, 1) = HFloat(6.12986682462311538), (123, 2) =
+HFloat(6.12986682462311538), (124, 1) = HFloat(6.18155404522613061), (124, 2) =
+HFloat(6.18155404522613061), (125, 1) = HFloat(6.22901904874371937), (125, 2) =
+HFloat(6.22901904874371937), (126, 1) = HFloat(6.28021646733668426), (126, 2) =
+HFloat(6.28021646733668426), (127, 1) = HFloat(6.33339619648241214), (127, 2) =
+HFloat(6.33339619648241214), (128, 1) = HFloat(6.37968930703517678), (128, 2) =
+HFloat(6.37968930703517678), (129, 1) = HFloat(6.42968713467336705), (129, 2) =
+HFloat(6.42968713467336705), (130, 1) = HFloat(6.48133978291457247), (130, 2) =
+HFloat(6.48133978291457247), (131, 1) = HFloat(6.53187182211055362), (131, 2) =
+HFloat(6.53187182211055362), (132, 1) = HFloat(6.58076416834170885), (132, 2) =
+HFloat(6.58076416834170885), (133, 1) = HFloat(6.63505078291457373), (133, 2) =
+HFloat(6.63505078291457373), (134, 1) = HFloat(6.68382972060301483), (134, 2) =
+HFloat(6.68382972060301483), (135, 1) = HFloat(6.73591164824120625), (135, 2) =
+HFloat(6.73591164824120625), (136, 1) = HFloat(6.78310561557788994), (136, 2) =
+HFloat(6.78310561557788994), (137, 1) = HFloat(6.83470108743718541), (137, 2) =
+HFloat(6.83470108743718541), (138, 1) = HFloat(6.88324840552763906), (138, 2) =
+HFloat(6.88324840552763906), (139, 1) = HFloat(6.93399434120603075), (139, 2) =
+HFloat(6.93399434120603075), (140, 1) = HFloat(6.98360776884422130), (140, 2) =
+HFloat(6.98360776884422130), (141, 1) = HFloat(7.03554842964824179), (141, 2) =
+HFloat(7.03554842964824179), (142, 1) = HFloat(7.08557345929648275), (142, 2) =
+HFloat(7.08557345929648275), (143, 1) = HFloat(7.13673127738693402), (143, 2) =
+HFloat(7.13673127738693402), (144, 1) = HFloat(7.18746548291457366), (144, 2) =
+HFloat(7.18746548291457366), (145, 1) = HFloat(7.23408494874371844), (145, 2) =
+HFloat(7.23408494874371844), (146, 1) = HFloat(7.28751611758793949), (146, 2) =
+HFloat(7.28751611758793949), (147, 1) = HFloat(7.33530559195980025), (147, 2) =
+HFloat(7.33530559195980025), (148, 1) = HFloat(7.38625913919597998), (148, 2) =
+HFloat(7.38625913919597998), (149, 1) = HFloat(7.43502818542713673), (149, 2) =
+HFloat(7.43502818542713673), (150, 1) = HFloat(7.48917994371859308), (150, 2) =
+HFloat(7.48917994371859308), (151, 1) = HFloat(7.53607138743718608), (151, 2) =
+HFloat(7.53607138743718608), (152, 1) = HFloat(7.58929359547738702), (152, 2) =
+HFloat(7.58929359547738702), (153, 1) = HFloat(7.63779986030150759), (153, 2) =
+HFloat(7.63779986030150759), (154, 1) = HFloat(7.69085809095477391), (154, 2) =
+HFloat(7.69085809095477391), (155, 1) = HFloat(7.73663837085427186), (155, 2) =
+HFloat(7.73663837085427186), (156, 1) = HFloat(7.78877676582914624), (156, 2) =
+HFloat(7.78877676582914624), (157, 1) = HFloat(7.83913988140703566), (157, 2) =
+HFloat(7.83913988140703566), (158, 1) = HFloat(7.88947009597989979), (158, 2) =
+HFloat(7.88947009597989979), (159, 1) = HFloat(7.93961515477386914), (159, 2) =
+HFloat(7.93961515477386914), (160, 1) = HFloat(7.98778885778894576), (160, 2) =
+HFloat(7.98778885778894576), (161, 1) = HFloat(8.03986590653266475), (161, 2) =
+HFloat(8.03986590653266475), (162, 1) = HFloat(8.08949911005025157), (162, 2) =
+HFloat(8.08949911005025157), (163, 1) = HFloat(8.14173571959799069), (163, 2) =
+HFloat(8.14173571959799069), (164, 1) = HFloat(8.18902243015075371), (164, 2) =
+HFloat(8.18902243015075371), (165, 1) = HFloat(8.24128309748743781), (165, 2) =
+HFloat(8.24128309748743781), (166, 1) = HFloat(8.29133971005025217), (166, 2) =
+HFloat(8.29133971005025217), (167, 1) = HFloat(8.34127448341708622), (167, 2) =
+HFloat(8.34127448341708622), (168, 1) = HFloat(8.39343154773869315), (168, 2) =
+HFloat(8.39343154773869315), (169, 1) = HFloat(8.44147010804020148), (169, 2) =
+HFloat(8.44147010804020148), (170, 1) = HFloat(8.49066816482412179), (170, 2) =
+HFloat(8.49066816482412179), (171, 1) = HFloat(8.54498866532663293), (171, 2) =
+HFloat(8.54498866532663293), (172, 1) = HFloat(8.59417142914572985), (172, 2) =
+HFloat(8.59417142914572985), (173, 1) = HFloat(8.64447001758794009), (173, 2) =
+HFloat(8.64447001758794009), (174, 1) = HFloat(8.69562238643216112), (174, 2) =
+HFloat(8.69562238643216112), (175, 1) = HFloat(8.74264136733668451), (175, 2) =
+HFloat(8.74264136733668451), (176, 1) = HFloat(8.79276207839196111), (176, 2) =
+HFloat(8.79276207839196111), (177, 1) = HFloat(8.84250126733668473), (177, 2) =
+HFloat(8.84250126733668473), (178, 1) = HFloat(8.89570673869346784), (178, 2) =
+HFloat(8.89570673869346784), (179, 1) = HFloat(8.94265826231155714), (179, 2) =
+HFloat(8.94265826231155714), (180, 1) = HFloat(8.99683057386934770), (180, 2) =
+HFloat(8.99683057386934770), (181, 1) = HFloat(9.04571690854271360), (181, 2) =
+HFloat(9.04571690854271360), (182, 1) = HFloat(9.09408738140703576), (182, 2) =
+HFloat(9.09408738140703576), (183, 1) = HFloat(9.14610117889447416), (183, 2) =
+HFloat(9.14610117889447416), (184, 1) = HFloat(9.19832538291457347), (184, 2) =
+HFloat(9.19832538291457347), (185, 1) = HFloat(9.24584167587939731), (185, 2) =
+HFloat(9.24584167587939731), (186, 1) = HFloat(9.29630186834170935), (186, 2) =
+HFloat(9.29630186834170935), (187, 1) = HFloat(9.34554608442211077), (187, 2) =
+HFloat(9.34554608442211077), (188, 1) = HFloat(9.39892733417085502), (188, 2) =
+HFloat(9.39892733417085502), (189, 1) = HFloat(9.44511695678392016), (189, 2) =
+HFloat(9.44511695678392016), (190, 1) = HFloat(9.49816741758793981), (190, 2) =
+HFloat(9.49816741758793981), (191, 1) = HFloat(9.54803763969849406), (191, 2) =
+HFloat(9.54803763969849406), (192, 1) = HFloat(9.59742616984924801), (192, 2) =
+HFloat(9.59742616984924801), (193, 1) = HFloat(9.64685398894472357), (193, 2) =
+HFloat(9.64685398894472357), (194, 1) = HFloat(9.69726723567839244), (194, 2) =
+HFloat(9.69726723567839244), (195, 1) = HFloat(9.75070443266331743), (195, 2) =
+HFloat(9.75070443266331743), (196, 1) = HFloat(9.79970110954773865), (196, 2) =
+HFloat(9.79970110954773865), (197, 1) = HFloat(9.84806712110552773), (197, 2) =
+HFloat(9.84806712110552773), (198, 1) = HFloat(9.89976959145728763), (198, 2) =
+HFloat(9.89976959145728763), (199, 1) = HFloat(9.95135951005025099), (199, 2) =
+HFloat(9.95135951005025099), (200, 1) = HFloat(10.), (200, 2) = HFloat(10.)},
+datatype = float[8],storage = rectangular,order = Fortran_order,shape = []),
+COLOUR(RGB,.24313725,.34117647,.54117647,_ATTRIBUTE(&quot;source&quot; = &quot;mathdefault&quot;)))
+,CURVES(Matrix(200,2,{(2, 1) = HFloat(.525760502512562788e-1), (2, 2) = HFloat(
+.525760502512562788e-1), (3, 1) = HFloat(.983221904522613155e-1), (3, 2) = 
+HFloat(.983221904522613155e-1), (4, 1) = HFloat(.149768509547738710), (4, 2) =
+HFloat(.149768509547738710), (5, 1) = HFloat(.201555848241206065), (5, 2) = 
+HFloat(.201555848241206065), (6, 1) = HFloat(.253097050753768871), (6, 2) = 
+HFloat(.253097050753768871), (7, 1) = HFloat(.300882343216080372), (7, 2) = 
+HFloat(.300882343216080372), (8, 1) = HFloat(.350361245728643245), (8, 2) = 
+HFloat(.350361245728643245), (9, 1) = HFloat(.401532397487437187), (9, 2) = 
+HFloat(.401532397487437187), (10, 1) = HFloat(.452539442713567830), (10, 2) = 
+HFloat(.452539442713567830), (11, 1) = HFloat(.505006458291457294), (11, 2) = 
+HFloat(.505006458291457294), (12, 1) = HFloat(.551219434170854283), (12, 2) = 
+HFloat(.551219434170854283), (13, 1) = HFloat(.603244299497487479), (13, 2) = 
+HFloat(.603244299497487479), (14, 1) = HFloat(.655482783919598022), (14, 2) = 
+HFloat(.655482783919598022), (15, 1) = HFloat(.705824243216080505), (15, 2) = 
+HFloat(.705824243216080505), (16, 1) = HFloat(.751539111055276376), (16, 2) = 
+HFloat(.751539111055276376), (17, 1) = HFloat(.805898510552763847), (17, 2) = 
+HFloat(.805898510552763847), (18, 1) = HFloat(.851948052261306543), (18, 2) = 
+HFloat(.851948052261306543), (19, 1) = HFloat(.905514616582914655), (19, 2) = 
+HFloat(.905514616582914655), (20, 1) = HFloat(.952930102512562827), (20, 2) = 
+HFloat(.952930102512562827), (21, 1) = HFloat(1.00495240552763820), (21, 2) = 
+HFloat(1.00495240552763820), (22, 1) = HFloat(1.05448994020100506), (22, 2) = 
+HFloat(1.05448994020100506), (23, 1) = HFloat(1.10617716080402029), (23, 2) = 
+HFloat(1.10617716080402029), (24, 1) = HFloat(1.15364216432160815), (24, 2) = 
+HFloat(1.15364216432160815), (25, 1) = HFloat(1.20483958291457283), (25, 2) = 
+HFloat(1.20483958291457283), (26, 1) = HFloat(1.25801931206030160), (26, 2) = 
+HFloat(1.25801931206030160), (27, 1) = HFloat(1.30431242261306535), (27, 2) = 
+HFloat(1.30431242261306535), (28, 1) = HFloat(1.35431025025125651), (28, 2) = 
+HFloat(1.35431025025125651), (29, 1) = HFloat(1.40596289849246237), (29, 2) = 
+HFloat(1.40596289849246237), (30, 1) = HFloat(1.45649493768844218), (30, 2) = 
+HFloat(1.45649493768844218), (31, 1) = HFloat(1.50538728391959808), (31, 2) = 
+HFloat(1.50538728391959808), (32, 1) = HFloat(1.55967389849246230), (32, 2) = 
+HFloat(1.55967389849246230), (33, 1) = HFloat(1.60845283618090451), (33, 2) = 
+HFloat(1.60845283618090451), (34, 1) = HFloat(1.66053476381909570), (34, 2) = 
+HFloat(1.66053476381909570), (35, 1) = HFloat(1.70772873115577895), (35, 2) = 
+HFloat(1.70772873115577895), (36, 1) = HFloat(1.75932420301507553), (36, 2) = 
+HFloat(1.75932420301507553), (37, 1) = HFloat(1.80787152110552762), (37, 2) = 
+HFloat(1.80787152110552762), (38, 1) = HFloat(1.85861745678391976), (38, 2) = 
+HFloat(1.85861745678391976), (39, 1) = HFloat(1.90823088442211053), (39, 2) = 
+HFloat(1.90823088442211053), (40, 1) = HFloat(1.96017154522613057), (40, 2) = 
+HFloat(1.96017154522613057), (41, 1) = HFloat(2.01019657487437220), (41, 2) = 
+HFloat(2.01019657487437220), (42, 1) = HFloat(2.06135439296482437), (42, 2) = 
+HFloat(2.06135439296482437), (43, 1) = HFloat(2.11208859849246267), (43, 2) = 
+HFloat(2.11208859849246267), (44, 1) = HFloat(2.15870806432160833), (44, 2) = 
+HFloat(2.15870806432160833), (45, 1) = HFloat(2.21213923316582939), (45, 2) = 
+HFloat(2.21213923316582939), (46, 1) = HFloat(2.25992870753768837), (46, 2) = 
+HFloat(2.25992870753768837), (47, 1) = HFloat(2.31088225477386944), (47, 2) = 
+HFloat(2.31088225477386944), (48, 1) = HFloat(2.35965130100502529), (48, 2) = 
+HFloat(2.35965130100502529), (49, 1) = HFloat(2.41380305929648253), (49, 2) = 
+HFloat(2.41380305929648253), (50, 1) = HFloat(2.46069450301507553), (50, 2) = 
+HFloat(2.46069450301507553), (51, 1) = HFloat(2.51391671105527648), (51, 2) = 
+HFloat(2.51391671105527648), (52, 1) = HFloat(2.56242297587939705), (52, 2) = 
+HFloat(2.56242297587939705), (53, 1) = HFloat(2.61548120653266336), (53, 2) = 
+HFloat(2.61548120653266336), (54, 1) = HFloat(2.66126148643216087), (54, 2) = 
+HFloat(2.66126148643216087), (55, 1) = HFloat(2.71339988140703525), (55, 2) = 
+HFloat(2.71339988140703525), (56, 1) = HFloat(2.76376299698492467), (56, 2) = 
+HFloat(2.76376299698492467), (57, 1) = HFloat(2.81409321155778924), (57, 2) = 
+HFloat(2.81409321155778924), (58, 1) = HFloat(2.86423827035175904), (58, 2) = 
+HFloat(2.86423827035175904), (59, 1) = HFloat(2.91241197336683433), (59, 2) = 
+HFloat(2.91241197336683433), (60, 1) = HFloat(2.96448902211055287), (60, 2) = 
+HFloat(2.96448902211055287), (61, 1) = HFloat(3.01412222562814103), (61, 2) = 
+HFloat(3.01412222562814103), (62, 1) = HFloat(3.06635883517587970), (62, 2) = 
+HFloat(3.06635883517587970), (63, 1) = HFloat(3.11364554572864316), (63, 2) = 
+HFloat(3.11364554572864316), (64, 1) = HFloat(3.16590621306532682), (64, 2) = 
+HFloat(3.16590621306532682), (65, 1) = HFloat(3.21596282562814073), (65, 2) = 
+HFloat(3.21596282562814073), (66, 1) = HFloat(3.26589759899497478), (66, 2) = 
+HFloat(3.26589759899497478), (67, 1) = HFloat(3.31805466331658350), (67, 2) = 
+HFloat(3.31805466331658350), (68, 1) = HFloat(3.36609322361809049), (68, 2) = 
+HFloat(3.36609322361809049), (69, 1) = HFloat(3.41529128040201035), (69, 2) = 
+HFloat(3.41529128040201035), (70, 1) = HFloat(3.46961178090452282), (70, 2) = 
+HFloat(3.46961178090452282), (71, 1) = HFloat(3.51879454472361797), (71, 2) = 
+HFloat(3.51879454472361797), (72, 1) = HFloat(3.56909313316582955), (72, 2) = 
+HFloat(3.56909313316582955), (73, 1) = HFloat(3.62024550201005058), (73, 2) = 
+HFloat(3.62024550201005058), (74, 1) = HFloat(3.66726448291457308), (74, 2) = 
+HFloat(3.66726448291457308), (75, 1) = HFloat(3.71738519396984968), (75, 2) = 
+HFloat(3.71738519396984968), (76, 1) = HFloat(3.76712438291457286), (76, 2) = 
+HFloat(3.76712438291457286), (77, 1) = HFloat(3.82032985427135729), (77, 2) = 
+HFloat(3.82032985427135729), (78, 1) = HFloat(3.86728137788944704), (78, 2) = 
+HFloat(3.86728137788944704), (79, 1) = HFloat(3.92145368944723627), (79, 2) = 
+HFloat(3.92145368944723627), (80, 1) = HFloat(3.97034002412060305), (80, 2) = 
+HFloat(3.97034002412060305), (81, 1) = HFloat(4.01871049698492477), (81, 2) = 
+HFloat(4.01871049698492477), (82, 1) = HFloat(4.07072429447236139), (82, 2) = 
+HFloat(4.07072429447236139), (83, 1) = HFloat(4.12294849849246248), (83, 2) = 
+HFloat(4.12294849849246248), (84, 1) = HFloat(4.17046479145728632), (84, 2) = 
+HFloat(4.17046479145728632), (85, 1) = HFloat(4.22092498391959836), (85, 2) = 
+HFloat(4.22092498391959836), (86, 1) = HFloat(4.27016920000000066), (86, 2) = 
+HFloat(4.27016920000000066), (87, 1) = HFloat(4.32355044974874403), (87, 2) = 
+HFloat(4.32355044974874403), (88, 1) = HFloat(4.36974007236180917), (88, 2) = 
+HFloat(4.36974007236180917), (89, 1) = HFloat(4.42279053316582971), (89, 2) = 
+HFloat(4.42279053316582971), (90, 1) = HFloat(4.47266075527638218), (90, 2) = 
+HFloat(4.47266075527638218), (91, 1) = HFloat(4.52204928542713613), (91, 2) = 
+HFloat(4.52204928542713613), (92, 1) = HFloat(4.57147710452261347), (92, 2) = 
+HFloat(4.57147710452261347), (93, 1) = HFloat(4.62189035125628145), (93, 2) = 
+HFloat(4.62189035125628145), (94, 1) = HFloat(4.67532754824120556), (94, 2) = 
+HFloat(4.67532754824120556), (95, 1) = HFloat(4.72432422512562855), (95, 2) = 
+HFloat(4.72432422512562855), (96, 1) = HFloat(4.77269023668341674), (96, 2) = 
+HFloat(4.77269023668341674), (97, 1) = HFloat(4.82439270703517575), (97, 2) = 
+HFloat(4.82439270703517575), (98, 1) = HFloat(4.87598262562814089), (98, 2) = 
+HFloat(4.87598262562814089), (99, 1) = HFloat(4.92228764120603035), (99, 2) = 
+HFloat(4.92228764120603035), (100, 1) = HFloat(4.97713927135678436), (100, 2) =
+HFloat(4.97713927135678436), (101, 1) = HFloat(5.02303657185929620), (101, 2) =
+HFloat(5.02303657185929620), (102, 1) = HFloat(5.07671862010050212), (102, 2) =
+HFloat(5.07671862010050212), (103, 1) = HFloat(5.12795293467336677), (103, 2) =
+HFloat(5.12795293467336677), (104, 1) = HFloat(5.17369907487437164), (104, 2) =
+HFloat(5.17369907487437164), (105, 1) = HFloat(5.22514539396985001), (105, 2) =
+HFloat(5.22514539396985001), (106, 1) = HFloat(5.27693273266331708), (106, 2) =
+HFloat(5.27693273266331708), (107, 1) = HFloat(5.32847393517587964), (107, 2) =
+HFloat(5.32847393517587964), (108, 1) = HFloat(5.37625922763819108), (108, 2) =
+HFloat(5.37625922763819108), (109, 1) = HFloat(5.42573813015075412), (109, 2) =
+HFloat(5.42573813015075412), (110, 1) = HFloat(5.47690928190954729), (110, 2) =
+HFloat(5.47690928190954729), (111, 1) = HFloat(5.52791632713567882), (111, 2) =
+HFloat(5.52791632713567882), (112, 1) = HFloat(5.58038334271356806), (112, 2) =
+HFloat(5.58038334271356806), (113, 1) = HFloat(5.62659631859296461), (113, 2) =
+HFloat(5.62659631859296461), (114, 1) = HFloat(5.67862118391959836), (114, 2) =
+HFloat(5.67862118391959836), (115, 1) = HFloat(5.73085966834170879), (115, 2) =
+HFloat(5.73085966834170879), (116, 1) = HFloat(5.78120112763819183), (116, 2) =
+HFloat(5.78120112763819183), (117, 1) = HFloat(5.82691599547738726), (117, 2) =
+HFloat(5.82691599547738726), (118, 1) = HFloat(5.88127539497487462), (118, 2) =
+HFloat(5.88127539497487462), (119, 1) = HFloat(5.92732493668341665), (119, 2) =
+HFloat(5.92732493668341665), (120, 1) = HFloat(5.98089150100502565), (120, 2) =
+HFloat(5.98089150100502565), (121, 1) = HFloat(6.02830698693467326), (121, 2) =
+HFloat(6.02830698693467326), (122, 1) = HFloat(6.08032928994974853), (122, 2) =
+HFloat(6.08032928994974853), (123, 1) = HFloat(6.12986682462311538), (123, 2) =
+HFloat(6.12986682462311538), (124, 1) = HFloat(6.18155404522613061), (124, 2) =
+HFloat(6.18155404522613061), (125, 1) = HFloat(6.22901904874371937), (125, 2) =
+HFloat(6.22901904874371937), (126, 1) = HFloat(6.28021646733668426), (126, 2) =
+HFloat(6.28021646733668426), (127, 1) = HFloat(6.33339619648241214), (127, 2) =
+HFloat(6.33339619648241214), (128, 1) = HFloat(6.37968930703517678), (128, 2) =
+HFloat(6.37968930703517678), (129, 1) = HFloat(6.42968713467336705), (129, 2) =
+HFloat(6.42968713467336705), (130, 1) = HFloat(6.48133978291457247), (130, 2) =
+HFloat(6.48133978291457247), (131, 1) = HFloat(6.53187182211055362), (131, 2) =
+HFloat(6.53187182211055362), (132, 1) = HFloat(6.58076416834170885), (132, 2) =
+HFloat(6.58076416834170885), (133, 1) = HFloat(6.63505078291457373), (133, 2) =
+HFloat(6.63505078291457373), (134, 1) = HFloat(6.68382972060301483), (134, 2) =
+HFloat(6.68382972060301483), (135, 1) = HFloat(6.73591164824120625), (135, 2) =
+HFloat(6.73591164824120625), (136, 1) = HFloat(6.78310561557788994), (136, 2) =
+HFloat(6.78310561557788994), (137, 1) = HFloat(6.83470108743718541), (137, 2) =
+HFloat(6.83470108743718541), (138, 1) = HFloat(6.88324840552763906), (138, 2) =
+HFloat(6.88324840552763906), (139, 1) = HFloat(6.93399434120603075), (139, 2) =
+HFloat(6.93399434120603075), (140, 1) = HFloat(6.98360776884422130), (140, 2) =
+HFloat(6.98360776884422130), (141, 1) = HFloat(7.03554842964824179), (141, 2) =
+HFloat(7.03554842964824179), (142, 1) = HFloat(7.08557345929648275), (142, 2) =
+HFloat(7.08557345929648275), (143, 1) = HFloat(7.13673127738693402), (143, 2) =
+HFloat(7.13673127738693402), (144, 1) = HFloat(7.18746548291457366), (144, 2) =
+HFloat(7.18746548291457366), (145, 1) = HFloat(7.23408494874371844), (145, 2) =
+HFloat(7.23408494874371844), (146, 1) = HFloat(7.28751611758793949), (146, 2) =
+HFloat(7.28751611758793949), (147, 1) = HFloat(7.33530559195980025), (147, 2) =
+HFloat(7.33530559195980025), (148, 1) = HFloat(7.38625913919597998), (148, 2) =
+HFloat(7.38625913919597998), (149, 1) = HFloat(7.43502818542713673), (149, 2) =
+HFloat(7.43502818542713673), (150, 1) = HFloat(7.48917994371859308), (150, 2) =
+HFloat(7.48917994371859308), (151, 1) = HFloat(7.53607138743718608), (151, 2) =
+HFloat(7.53607138743718608), (152, 1) = HFloat(7.58929359547738702), (152, 2) =
+HFloat(7.58929359547738702), (153, 1) = HFloat(7.63779986030150759), (153, 2) =
+HFloat(7.63779986030150759), (154, 1) = HFloat(7.69085809095477391), (154, 2) =
+HFloat(7.69085809095477391), (155, 1) = HFloat(7.73663837085427186), (155, 2) =
+HFloat(7.73663837085427186), (156, 1) = HFloat(7.78877676582914624), (156, 2) =
+HFloat(7.78877676582914624), (157, 1) = HFloat(7.83913988140703566), (157, 2) =
+HFloat(7.83913988140703566), (158, 1) = HFloat(7.88947009597989979), (158, 2) =
+HFloat(7.88947009597989979), (159, 1) = HFloat(7.93961515477386914), (159, 2) =
+HFloat(7.93961515477386914), (160, 1) = HFloat(7.98778885778894576), (160, 2) =
+HFloat(7.98778885778894576), (161, 1) = HFloat(8.03986590653266475), (161, 2) =
+HFloat(8.03986590653266475), (162, 1) = HFloat(8.08949911005025157), (162, 2) =
+HFloat(8.08949911005025157), (163, 1) = HFloat(8.14173571959799069), (163, 2) =
+HFloat(8.14173571959799069), (164, 1) = HFloat(8.18902243015075371), (164, 2) =
+HFloat(8.18902243015075371), (165, 1) = HFloat(8.24128309748743781), (165, 2) =
+HFloat(8.24128309748743781), (166, 1) = HFloat(8.29133971005025217), (166, 2) =
+HFloat(8.29133971005025217), (167, 1) = HFloat(8.34127448341708622), (167, 2) =
+HFloat(8.34127448341708622), (168, 1) = HFloat(8.39343154773869315), (168, 2) =
+HFloat(8.39343154773869315), (169, 1) = HFloat(8.44147010804020148), (169, 2) =
+HFloat(8.44147010804020148), (170, 1) = HFloat(8.49066816482412179), (170, 2) =
+HFloat(8.49066816482412179), (171, 1) = HFloat(8.54498866532663293), (171, 2) =
+HFloat(8.54498866532663293), (172, 1) = HFloat(8.59417142914572985), (172, 2) =
+HFloat(8.59417142914572985), (173, 1) = HFloat(8.64447001758794009), (173, 2) =
+HFloat(8.64447001758794009), (174, 1) = HFloat(8.69562238643216112), (174, 2) =
+HFloat(8.69562238643216112), (175, 1) = HFloat(8.74264136733668451), (175, 2) =
+HFloat(8.74264136733668451), (176, 1) = HFloat(8.79276207839196111), (176, 2) =
+HFloat(8.79276207839196111), (177, 1) = HFloat(8.84250126733668473), (177, 2) =
+HFloat(8.84250126733668473), (178, 1) = HFloat(8.89570673869346784), (178, 2) =
+HFloat(8.89570673869346784), (179, 1) = HFloat(8.94265826231155714), (179, 2) =
+HFloat(8.94265826231155714), (180, 1) = HFloat(8.99683057386934770), (180, 2) =
+HFloat(8.99683057386934770), (181, 1) = HFloat(9.04571690854271360), (181, 2) =
+HFloat(9.04571690854271360), (182, 1) = HFloat(9.09408738140703576), (182, 2) =
+HFloat(9.09408738140703576), (183, 1) = HFloat(9.14610117889447416), (183, 2) =
+HFloat(9.14610117889447416), (184, 1) = HFloat(9.19832538291457347), (184, 2) =
+HFloat(9.19832538291457347), (185, 1) = HFloat(9.24584167587939731), (185, 2) =
+HFloat(9.24584167587939731), (186, 1) = HFloat(9.29630186834170935), (186, 2) =
+HFloat(9.29630186834170935), (187, 1) = HFloat(9.34554608442211077), (187, 2) =
+HFloat(9.34554608442211077), (188, 1) = HFloat(9.39892733417085502), (188, 2) =
+HFloat(9.39892733417085502), (189, 1) = HFloat(9.44511695678392016), (189, 2) =
+HFloat(9.44511695678392016), (190, 1) = HFloat(9.49816741758793981), (190, 2) =
+HFloat(9.49816741758793981), (191, 1) = HFloat(9.54803763969849406), (191, 2) =
+HFloat(9.54803763969849406), (192, 1) = HFloat(9.59742616984924801), (192, 2) =
+HFloat(9.59742616984924801), (193, 1) = HFloat(9.64685398894472357), (193, 2) =
+HFloat(9.64685398894472357), (194, 1) = HFloat(9.69726723567839244), (194, 2) =
+HFloat(9.69726723567839244), (195, 1) = HFloat(9.75070443266331743), (195, 2) =
+HFloat(9.75070443266331743), (196, 1) = HFloat(9.79970110954773865), (196, 2) =
+HFloat(9.79970110954773865), (197, 1) = HFloat(9.84806712110552773), (197, 2) =
+HFloat(9.84806712110552773), (198, 1) = HFloat(9.89976959145728763), (198, 2) =
+HFloat(9.89976959145728763), (199, 1) = HFloat(9.95135951005025099), (199, 2) =
+HFloat(9.95135951005025099), (200, 1) = HFloat(10.), (200, 2) = HFloat(10.)},
+datatype = float[8],storage = rectangular,order = Fortran_order,shape = []),
+COLOUR(RGB,.47058824,0.,.44705882,_ATTRIBUTE(&quot;source&quot; = &quot;mathdefault&quot;))),CURVES
+<Font encoding="UTF-8">(Matrix(200,2,{(2, 1) = HFloat(.525760502512562788e-1), (2, 2) = HFloat(.\134
+</Font>525760502512562788e-1), (3, 1) = HFloat(.983221904522613155e-1), (3, 2) = 
+HFloat(.983221904522613155e-1), (4, 1) = HFloat(.149768509547738710), (4, 2) =
+HFloat(.149768509547738710), (5, 1) = HFloat(.201555848241206065), (5, 2) = 
+HFloat(.201555848241206065), (6, 1) = HFloat(.253097050753768871), (6, 2) = 
+HFloat(.253097050753768871), (7, 1) = HFloat(.300882343216080372), (7, 2) = 
+HFloat(.300882343216080372), (8, 1) = HFloat(.350361245728643245), (8, 2) = 
+HFloat(.350361245728643245), (9, 1) = HFloat(.401532397487437187), (9, 2) = 
+HFloat(.401532397487437187), (10, 1) = HFloat(.452539442713567830), (10, 2) = 
+HFloat(.452539442713567830), (11, 1) = HFloat(.505006458291457294), (11, 2) = 
+HFloat(.505006458291457294), (12, 1) = HFloat(.551219434170854283), (12, 2) = 
+HFloat(.551219434170854283), (13, 1) = HFloat(.603244299497487479), (13, 2) = 
+HFloat(.603244299497487479), (14, 1) = HFloat(.655482783919598022), (14, 2) = 
+HFloat(.655482783919598022), (15, 1) = HFloat(.705824243216080505), (15, 2) = 
+HFloat(.705824243216080505), (16, 1) = HFloat(.751539111055276376), (16, 2) = 
+HFloat(.751539111055276376), (17, 1) = HFloat(.805898510552763847), (17, 2) = 
+HFloat(.805898510552763847), (18, 1) = HFloat(.851948052261306543), (18, 2) = 
+HFloat(.851948052261306543), (19, 1) = HFloat(.905514616582914655), (19, 2) = 
+HFloat(.905514616582914655), (20, 1) = HFloat(.952930102512562827), (20, 2) = 
+HFloat(.952930102512562827), (21, 1) = HFloat(1.00495240552763820), (21, 2) = 
+HFloat(1.00495240552763820), (22, 1) = HFloat(1.05448994020100506), (22, 2) = 
+HFloat(1.05448994020100506), (23, 1) = HFloat(1.10617716080402029), (23, 2) = 
+HFloat(1.10617716080402029), (24, 1) = HFloat(1.15364216432160815), (24, 2) = 
+HFloat(1.15364216432160815), (25, 1) = HFloat(1.20483958291457283), (25, 2) = 
+HFloat(1.20483958291457283), (26, 1) = HFloat(1.25801931206030160), (26, 2) = 
+HFloat(1.25801931206030160), (27, 1) = HFloat(1.30431242261306535), (27, 2) = 
+HFloat(1.30431242261306535), (28, 1) = HFloat(1.35431025025125651), (28, 2) = 
+HFloat(1.35431025025125651), (29, 1) = HFloat(1.40596289849246237), (29, 2) = 
+HFloat(1.40596289849246237), (30, 1) = HFloat(1.45649493768844218), (30, 2) = 
+HFloat(1.45649493768844218), (31, 1) = HFloat(1.50538728391959808), (31, 2) = 
+HFloat(1.50538728391959808), (32, 1) = HFloat(1.55967389849246230), (32, 2) = 
+HFloat(1.55967389849246230), (33, 1) = HFloat(1.60845283618090451), (33, 2) = 
+HFloat(1.60845283618090451), (34, 1) = HFloat(1.66053476381909570), (34, 2) = 
+HFloat(1.66053476381909570), (35, 1) = HFloat(1.70772873115577895), (35, 2) = 
+HFloat(1.70772873115577895), (36, 1) = HFloat(1.75932420301507553), (36, 2) = 
+HFloat(1.75932420301507553), (37, 1) = HFloat(1.80787152110552762), (37, 2) = 
+HFloat(1.80787152110552762), (38, 1) = HFloat(1.85861745678391976), (38, 2) = 
+HFloat(1.85861745678391976), (39, 1) = HFloat(1.90823088442211053), (39, 2) = 
+HFloat(1.90823088442211053), (40, 1) = HFloat(1.96017154522613057), (40, 2) = 
+HFloat(1.96017154522613057), (41, 1) = HFloat(2.01019657487437220), (41, 2) = 
+HFloat(2.01019657487437220), (42, 1) = HFloat(2.06135439296482437), (42, 2) = 
+HFloat(2.06135439296482437), (43, 1) = HFloat(2.11208859849246267), (43, 2) = 
+HFloat(2.11208859849246267), (44, 1) = HFloat(2.15870806432160833), (44, 2) = 
+HFloat(2.15870806432160833), (45, 1) = HFloat(2.21213923316582939), (45, 2) = 
+HFloat(2.21213923316582939), (46, 1) = HFloat(2.25992870753768837), (46, 2) = 
+HFloat(2.25992870753768837), (47, 1) = HFloat(2.31088225477386944), (47, 2) = 
+HFloat(2.31088225477386944), (48, 1) = HFloat(2.35965130100502529), (48, 2) = 
+HFloat(2.35965130100502529), (49, 1) = HFloat(2.41380305929648253), (49, 2) = 
+HFloat(2.41380305929648253), (50, 1) = HFloat(2.46069450301507553), (50, 2) = 
+HFloat(2.46069450301507553), (51, 1) = HFloat(2.51391671105527648), (51, 2) = 
+HFloat(2.51391671105527648), (52, 1) = HFloat(2.56242297587939705), (52, 2) = 
+HFloat(2.56242297587939705), (53, 1) = HFloat(2.61548120653266336), (53, 2) = 
+HFloat(2.61548120653266336), (54, 1) = HFloat(2.66126148643216087), (54, 2) = 
+HFloat(2.66126148643216087), (55, 1) = HFloat(2.71339988140703525), (55, 2) = 
+HFloat(2.71339988140703525), (56, 1) = HFloat(2.76376299698492467), (56, 2) = 
+HFloat(2.76376299698492467), (57, 1) = HFloat(2.81409321155778924), (57, 2) = 
+HFloat(2.81409321155778924), (58, 1) = HFloat(2.86423827035175904), (58, 2) = 
+HFloat(2.86423827035175904), (59, 1) = HFloat(2.91241197336683433), (59, 2) = 
+HFloat(2.91241197336683433), (60, 1) = HFloat(2.96448902211055287), (60, 2) = 
+HFloat(2.96448902211055287), (61, 1) = HFloat(3.01412222562814103), (61, 2) = 
+HFloat(3.01412222562814103), (62, 1) = HFloat(3.06635883517587970), (62, 2) = 
+HFloat(3.06635883517587970), (63, 1) = HFloat(3.11364554572864316), (63, 2) = 
+HFloat(3.11364554572864316), (64, 1) = HFloat(3.16590621306532682), (64, 2) = 
+HFloat(3.16590621306532682), (65, 1) = HFloat(3.21596282562814073), (65, 2) = 
+HFloat(3.21596282562814073), (66, 1) = HFloat(3.26589759899497478), (66, 2) = 
+HFloat(3.26589759899497478), (67, 1) = HFloat(3.31805466331658350), (67, 2) = 
+HFloat(3.31805466331658350), (68, 1) = HFloat(3.36609322361809049), (68, 2) = 
+HFloat(3.36609322361809049), (69, 1) = HFloat(3.41529128040201035), (69, 2) = 
+HFloat(3.41529128040201035), (70, 1) = HFloat(3.46961178090452282), (70, 2) = 
+HFloat(3.46961178090452282), (71, 1) = HFloat(3.51879454472361797), (71, 2) = 
+HFloat(3.51879454472361797), (72, 1) = HFloat(3.56909313316582955), (72, 2) = 
+HFloat(3.56909313316582955), (73, 1) = HFloat(3.62024550201005058), (73, 2) = 
+HFloat(3.62024550201005058), (74, 1) = HFloat(3.66726448291457308), (74, 2) = 
+HFloat(3.66726448291457308), (75, 1) = HFloat(3.71738519396984968), (75, 2) = 
+HFloat(3.71738519396984968), (76, 1) = HFloat(3.76712438291457286), (76, 2) = 
+HFloat(3.76712438291457286), (77, 1) = HFloat(3.82032985427135729), (77, 2) = 
+HFloat(3.82032985427135729), (78, 1) = HFloat(3.86728137788944704), (78, 2) = 
+HFloat(3.86728137788944704), (79, 1) = HFloat(3.92145368944723627), (79, 2) = 
+HFloat(3.92145368944723627), (80, 1) = HFloat(3.97034002412060305), (80, 2) = 
+HFloat(3.97034002412060305), (81, 1) = HFloat(4.01871049698492477), (81, 2) = 
+HFloat(4.01871049698492477), (82, 1) = HFloat(4.07072429447236139), (82, 2) = 
+HFloat(4.07072429447236139), (83, 1) = HFloat(4.12294849849246248), (83, 2) = 
+HFloat(4.12294849849246248), (84, 1) = HFloat(4.17046479145728632), (84, 2) = 
+HFloat(4.17046479145728632), (85, 1) = HFloat(4.22092498391959836), (85, 2) = 
+HFloat(4.22092498391959836), (86, 1) = HFloat(4.27016920000000066), (86, 2) = 
+HFloat(4.27016920000000066), (87, 1) = HFloat(4.32355044974874403), (87, 2) = 
+HFloat(4.32355044974874403), (88, 1) = HFloat(4.36974007236180917), (88, 2) = 
+HFloat(4.36974007236180917), (89, 1) = HFloat(4.42279053316582971), (89, 2) = 
+HFloat(4.42279053316582971), (90, 1) = HFloat(4.47266075527638218), (90, 2) = 
+HFloat(4.47266075527638218), (91, 1) = HFloat(4.52204928542713613), (91, 2) = 
+HFloat(4.52204928542713613), (92, 1) = HFloat(4.57147710452261347), (92, 2) = 
+HFloat(4.57147710452261347), (93, 1) = HFloat(4.62189035125628145), (93, 2) = 
+HFloat(4.62189035125628145), (94, 1) = HFloat(4.67532754824120556), (94, 2) = 
+HFloat(4.67532754824120556), (95, 1) = HFloat(4.72432422512562855), (95, 2) = 
+HFloat(4.72432422512562855), (96, 1) = HFloat(4.77269023668341674), (96, 2) = 
+HFloat(4.77269023668341674), (97, 1) = HFloat(4.82439270703517575), (97, 2) = 
+HFloat(4.82439270703517575), (98, 1) = HFloat(4.87598262562814089), (98, 2) = 
+HFloat(4.87598262562814089), (99, 1) = HFloat(4.92228764120603035), (99, 2) = 
+HFloat(4.92228764120603035), (100, 1) = HFloat(4.97713927135678436), (100, 2) =
+HFloat(4.97713927135678436), (101, 1) = HFloat(5.02303657185929620), (101, 2) =
+HFloat(5.02303657185929620), (102, 1) = HFloat(5.07671862010050212), (102, 2) =
+HFloat(5.07671862010050212), (103, 1) = HFloat(5.12795293467336677), (103, 2) =
+HFloat(5.12795293467336677), (104, 1) = HFloat(5.17369907487437164), (104, 2) =
+HFloat(5.17369907487437164), (105, 1) = HFloat(5.22514539396985001), (105, 2) =
+HFloat(5.22514539396985001), (106, 1) = HFloat(5.27693273266331708), (106, 2) =
+HFloat(5.27693273266331708), (107, 1) = HFloat(5.32847393517587964), (107, 2) =
+HFloat(5.32847393517587964), (108, 1) = HFloat(5.37625922763819108), (108, 2) =
+HFloat(5.37625922763819108), (109, 1) = HFloat(5.42573813015075412), (109, 2) =
+HFloat(5.42573813015075412), (110, 1) = HFloat(5.47690928190954729), (110, 2) =
+HFloat(5.47690928190954729), (111, 1) = HFloat(5.52791632713567882), (111, 2) =
+HFloat(5.52791632713567882), (112, 1) = HFloat(5.58038334271356806), (112, 2) =
+HFloat(5.58038334271356806), (113, 1) = HFloat(5.62659631859296461), (113, 2) =
+HFloat(5.62659631859296461), (114, 1) = HFloat(5.67862118391959836), (114, 2) =
+HFloat(5.67862118391959836), (115, 1) = HFloat(5.73085966834170879), (115, 2) =
+HFloat(5.73085966834170879), (116, 1) = HFloat(5.78120112763819183), (116, 2) =
+HFloat(5.78120112763819183), (117, 1) = HFloat(5.82691599547738726), (117, 2) =
+HFloat(5.82691599547738726), (118, 1) = HFloat(5.88127539497487462), (118, 2) =
+HFloat(5.88127539497487462), (119, 1) = HFloat(5.92732493668341665), (119, 2) =
+HFloat(5.92732493668341665), (120, 1) = HFloat(5.98089150100502565), (120, 2) =
+HFloat(5.98089150100502565), (121, 1) = HFloat(6.02830698693467326), (121, 2) =
+HFloat(6.02830698693467326), (122, 1) = HFloat(6.08032928994974853), (122, 2) =
+HFloat(6.08032928994974853), (123, 1) = HFloat(6.12986682462311538), (123, 2) =
+HFloat(6.12986682462311538), (124, 1) = HFloat(6.18155404522613061), (124, 2) =
+HFloat(6.18155404522613061), (125, 1) = HFloat(6.22901904874371937), (125, 2) =
+HFloat(6.22901904874371937), (126, 1) = HFloat(6.28021646733668426), (126, 2) =
+HFloat(6.28021646733668426), (127, 1) = HFloat(6.33339619648241214), (127, 2) =
+HFloat(6.33339619648241214), (128, 1) = HFloat(6.37968930703517678), (128, 2) =
+HFloat(6.37968930703517678), (129, 1) = HFloat(6.42968713467336705), (129, 2) =
+HFloat(6.42968713467336705), (130, 1) = HFloat(6.48133978291457247), (130, 2) =
+HFloat(6.48133978291457247), (131, 1) = HFloat(6.53187182211055362), (131, 2) =
+HFloat(6.53187182211055362), (132, 1) = HFloat(6.58076416834170885), (132, 2) =
+HFloat(6.58076416834170885), (133, 1) = HFloat(6.63505078291457373), (133, 2) =
+HFloat(6.63505078291457373), (134, 1) = HFloat(6.68382972060301483), (134, 2) =
+HFloat(6.68382972060301483), (135, 1) = HFloat(6.73591164824120625), (135, 2) =
+HFloat(6.73591164824120625), (136, 1) = HFloat(6.78310561557788994), (136, 2) =
+HFloat(6.78310561557788994), (137, 1) = HFloat(6.83470108743718541), (137, 2) =
+HFloat(6.83470108743718541), (138, 1) = HFloat(6.88324840552763906), (138, 2) =
+HFloat(6.88324840552763906), (139, 1) = HFloat(6.93399434120603075), (139, 2) =
+HFloat(6.93399434120603075), (140, 1) = HFloat(6.98360776884422130), (140, 2) =
+HFloat(6.98360776884422130), (141, 1) = HFloat(7.03554842964824179), (141, 2) =
+HFloat(7.03554842964824179), (142, 1) = HFloat(7.08557345929648275), (142, 2) =
+HFloat(7.08557345929648275), (143, 1) = HFloat(7.13673127738693402), (143, 2) =
+HFloat(7.13673127738693402), (144, 1) = HFloat(7.18746548291457366), (144, 2) =
+HFloat(7.18746548291457366), (145, 1) = HFloat(7.23408494874371844), (145, 2) =
+HFloat(7.23408494874371844), (146, 1) = HFloat(7.28751611758793949), (146, 2) =
+HFloat(7.28751611758793949), (147, 1) = HFloat(7.33530559195980025), (147, 2) =
+HFloat(7.33530559195980025), (148, 1) = HFloat(7.38625913919597998), (148, 2) =
+HFloat(7.38625913919597998), (149, 1) = HFloat(7.43502818542713673), (149, 2) =
+HFloat(7.43502818542713673), (150, 1) = HFloat(7.48917994371859308), (150, 2) =
+HFloat(7.48917994371859308), (151, 1) = HFloat(7.53607138743718608), (151, 2) =
+HFloat(7.53607138743718608), (152, 1) = HFloat(7.58929359547738702), (152, 2) =
+HFloat(7.58929359547738702), (153, 1) = HFloat(7.63779986030150759), (153, 2) =
+HFloat(7.63779986030150759), (154, 1) = HFloat(7.69085809095477391), (154, 2) =
+HFloat(7.69085809095477391), (155, 1) = HFloat(7.73663837085427186), (155, 2) =
+HFloat(7.73663837085427186), (156, 1) = HFloat(7.78877676582914624), (156, 2) =
+HFloat(7.78877676582914624), (157, 1) = HFloat(7.83913988140703566), (157, 2) =
+HFloat(7.83913988140703566), (158, 1) = HFloat(7.88947009597989979), (158, 2) =
+HFloat(7.88947009597989979), (159, 1) = HFloat(7.93961515477386914), (159, 2) =
+HFloat(7.93961515477386914), (160, 1) = HFloat(7.98778885778894576), (160, 2) =
+HFloat(7.98778885778894576), (161, 1) = HFloat(8.03986590653266475), (161, 2) =
+HFloat(8.03986590653266475), (162, 1) = HFloat(8.08949911005025157), (162, 2) =
+HFloat(8.08949911005025157), (163, 1) = HFloat(8.14173571959799069), (163, 2) =
+HFloat(8.14173571959799069), (164, 1) = HFloat(8.18902243015075371), (164, 2) =
+HFloat(8.18902243015075371), (165, 1) = HFloat(8.24128309748743781), (165, 2) =
+HFloat(8.24128309748743781), (166, 1) = HFloat(8.29133971005025217), (166, 2) =
+HFloat(8.29133971005025217), (167, 1) = HFloat(8.34127448341708622), (167, 2) =
+HFloat(8.34127448341708622), (168, 1) = HFloat(8.39343154773869315), (168, 2) =
+HFloat(8.39343154773869315), (169, 1) = HFloat(8.44147010804020148), (169, 2) =
+HFloat(8.44147010804020148), (170, 1) = HFloat(8.49066816482412179), (170, 2) =
+HFloat(8.49066816482412179), (171, 1) = HFloat(8.54498866532663293), (171, 2) =
+HFloat(8.54498866532663293), (172, 1) = HFloat(8.59417142914572985), (172, 2) =
+HFloat(8.59417142914572985), (173, 1) = HFloat(8.64447001758794009), (173, 2) =
+HFloat(8.64447001758794009), (174, 1) = HFloat(8.69562238643216112), (174, 2) =
+HFloat(8.69562238643216112), (175, 1) = HFloat(8.74264136733668451), (175, 2) =
+HFloat(8.74264136733668451), (176, 1) = HFloat(8.79276207839196111), (176, 2) =
+HFloat(8.79276207839196111), (177, 1) = HFloat(8.84250126733668473), (177, 2) =
+HFloat(8.84250126733668473), (178, 1) = HFloat(8.89570673869346784), (178, 2) =
+HFloat(8.89570673869346784), (179, 1) = HFloat(8.94265826231155714), (179, 2) =
+HFloat(8.94265826231155714), (180, 1) = HFloat(8.99683057386934770), (180, 2) =
+HFloat(8.99683057386934770), (181, 1) = HFloat(9.04571690854271360), (181, 2) =
+HFloat(9.04571690854271360), (182, 1) = HFloat(9.09408738140703576), (182, 2) =
+HFloat(9.09408738140703576), (183, 1) = HFloat(9.14610117889447416), (183, 2) =
+HFloat(9.14610117889447416), (184, 1) = HFloat(9.19832538291457347), (184, 2) =
+HFloat(9.19832538291457347), (185, 1) = HFloat(9.24584167587939731), (185, 2) =
+HFloat(9.24584167587939731), (186, 1) = HFloat(9.29630186834170935), (186, 2) =
+HFloat(9.29630186834170935), (187, 1) = HFloat(9.34554608442211077), (187, 2) =
+HFloat(9.34554608442211077), (188, 1) = HFloat(9.39892733417085502), (188, 2) =
+HFloat(9.39892733417085502), (189, 1) = HFloat(9.44511695678392016), (189, 2) =
+HFloat(9.44511695678392016), (190, 1) = HFloat(9.49816741758793981), (190, 2) =
+HFloat(9.49816741758793981), (191, 1) = HFloat(9.54803763969849406), (191, 2) =
+HFloat(9.54803763969849406), (192, 1) = HFloat(9.59742616984924801), (192, 2) =
+HFloat(9.59742616984924801), (193, 1) = HFloat(9.64685398894472357), (193, 2) =
+HFloat(9.64685398894472357), (194, 1) = HFloat(9.69726723567839244), (194, 2) =
+HFloat(9.69726723567839244), (195, 1) = HFloat(9.75070443266331743), (195, 2) =
+HFloat(9.75070443266331743), (196, 1) = HFloat(9.79970110954773865), (196, 2) =
+HFloat(9.79970110954773865), (197, 1) = HFloat(9.84806712110552773), (197, 2) =
+HFloat(9.84806712110552773), (198, 1) = HFloat(9.89976959145728763), (198, 2) =
+HFloat(9.89976959145728763), (199, 1) = HFloat(9.95135951005025099), (199, 2) =
+HFloat(9.95135951005025099), (200, 1) = HFloat(10.), (200, 2) = HFloat(10.)},
+datatype = float[8],storage = rectangular,order = Fortran_order,shape = []),
+COLOUR(RGB,0.,.47058824,.41568627,_ATTRIBUTE(&quot;source&quot; = &quot;mathdefault&quot;))),
+AXESLABELS(t,&quot;&quot;),VIEW(0. .. 10.,DEFAULT,_ATTRIBUTE(&quot;source&quot; = &quot;mathdefault&quot;)))
+</Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L16" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">dP[Syms[-1][1]];
+dP[Syms[-1][2]];
+dP[Syms[-1][3]];
+dP[Syms[-1][4]];
+dP[Syms[-1][5]];
+dP[Syms[-1][6]];
+dP[Syms[-1][7]];
+dP[Syms[-1][8]];
+</Text-field>
+</Input>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">dP[&quot;11000000001100000000&quot;]
+dP[&quot;11100000001110000000&quot;]
+dP[&quot;11110000001111000000&quot;]
+dP[&quot;11111000001111100000&quot;]
+dP[&quot;11111100001111110000&quot;]
+dP[&quot;11111110001111111000&quot;]
+dP[&quot;11111111001111111100&quot;]
+dP[&quot;11111111101111111110&quot;]
+</Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L17" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#f:=collect(Q[Syms[-1][8]](t),exp);
+#g:=convert(f,list)[-1]:
+#convert(f,list)[9];
+#plot([f,g],t=0..10,y=0..1,color=[red,blue],thickness=5);
+#plot([convert(f,list)[-1]],t=0..10,color=[red,blue],thickness=5);
+#diff(f,t):
+
+f:=collect(Q[Syms[-1][8]](t),exp):
+g:=convert(f,list)[-1]:
+A1:=fsolve(diff(f,t)=0,t=0.1..10);
+B1:=fsolve(diff(g,t)=0,t=0.1..10);
+
+f:=collect(Q[Syms[-1][7]](t),exp):
+g:=convert(f,list)[-1]:
+A2:=fsolve(diff(f,t)=0,t=0.1..10);
+B2:=fsolve(diff(g,t)=0,t=0.1..10);
+
+
+1/(A1-A2);
+1/(B1-B2);</Text-field>
+</Input>
+<Output><Text-field style="Line Printed Output" layout="Line Printed Output">Typesetting:-mprintslash([(A1 := fsolve(diff(Q[&quot;11111111101111111110&quot;](t),t) =
+0,t,.1 .. 10))],[fsolve(diff(Q[&quot;11111111101111111110&quot;](t),t) = 0,t,.1 .. 10)])
+Typesetting:-mprintslash([(B1 := NULL)],[])
+Typesetting:-mprintslash([(A2 := fsolve(diff(Q[&quot;11111111001111111100&quot;](t),t) =
+0,t,.1 .. 10))],[fsolve(diff(Q[&quot;11111111001111111100&quot;](t),t) = 0,t,.1 .. 10)])
+Typesetting:-mprintslash([(B2 := NULL)],[])
+Typesetting:-mprintslash([1/(-fsolve(diff(Q[&quot;11111111001111111100&quot;](t),t) = 0,t
+,.1 .. 10)+fsolve(diff(Q[&quot;11111111101111111110&quot;](t),t) = 0,t,.1 .. 10))],[1/(-
+fsolve(diff(Q[&quot;11111111001111111100&quot;](t),t) = 0,t,.1 .. 10)+fsolve(diff(Q[
+&quot;11111111101111111110&quot;](t),t) = 0,t,.1 .. 10))])
+</Text-field>
+</Output>
+<Output><Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20numeric%20exception%3A%20division%20by%20zero" hyperlink="true"><Font style="HyperlinkError">Error, numeric exception: division by zero</Font></Hyperlink></Text-field>
+</Output>
+</Group>
+<Group labelreference="L170" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L171" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Worksheet>

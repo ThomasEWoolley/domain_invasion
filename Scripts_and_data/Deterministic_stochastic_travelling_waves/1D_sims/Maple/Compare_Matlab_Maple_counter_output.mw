@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2018" minor="2"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false" editable="true">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" preplot="" helpbrowser="standard" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="2160" rtablesize="10" useclientjvm="true" labelwidth="20" postplot="" typesetting="extended" ansi="false" ansicolor="[]" elisiondigitsthreshold="10000" showassumed="1" ansilprint="false" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Group hide-input="false" labelreference="L622" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart:
+with(ArrayTools):
+with(LinearAlgebra):
+with(Student[LinearAlgebra]):
+with(StringTools):
+with(ListTools,MakeUnique):</Text-field>
+</Input>
+</Group><CodeEditor-ExecGroup view="presentation" labelreference="L620" drawlabel="true" applyint="true" applyrational="true" display="code"><EC-CodeEditor id="CodeEditRegion1" expanded="true" visible="true" pixel-width="500" pixel-height="200" code-language="text/maple" autofit="true" wrapping="true" show-border="true" code-line-numbers="true">####Function to create a binary sequence####
+####Converts number N to binary in hi digits####
+Binaryiser := proc(N::nonnegint, hi::nonnegint)
+local q, A, i, L;
+A := 'irem(q, 2, 'q')';
+irem(N, 1, 'q');
+L:=[seq(eval(A), i = 0 .. hi)];
+cat(seq(sprintf(&quot;%a&quot;,i),i=L));
+end proc:
+</EC-CodeEditor></CodeEditor-ExecGroup>
+<Group hide-input="false" labelreference="L621" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Binaryiser(27,8);</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbXNHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2I1EqMTEwMTEwMDAwRic=">USoxMTAxMTAwMDA2Ig==</Equation></Text-field>
+</Output>
+</Group><CodeEditor-ExecGroup view="presentation" labelreference="L638" drawlabel="true" applyint="true" applyrational="true" display="code"><EC-CodeEditor id="CodeEditRegion4" expanded="true" visible="true" pixel-width="500" pixel-height="200" code-language="text/maple" autofit="true" wrapping="true" show-border="true" code-line-numbers="true">####Convert list to name####
+List2Name:=proc(a)
+[seq(parse(a[i]),i=1..Length(a))];
+end proc:</EC-CodeEditor></CodeEditor-ExecGroup>
+<Group hide-input="false" labelreference="L637" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">List2Name(&quot;1111&quot;);</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYsLUkjbW5HRiQ2JFEiMUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RIixGJ0YyLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR1EldHJ1ZUYnLyUpc3RyZXRjaHlHRjsvJSpzeW1tZXRyaWNHRjsvJShsYXJnZW9wR0Y7LyUubW92YWJsZWxpbWl0c0dGOy8lJ2FjY2VudEdGOy8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHUSwwLjMzMzMzMzNlbUYnRi5GNUYuRjVGLi8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGO0YyRjIvJSVvcGVuR1EnJmxzcWI7RicvJSZjbG9zZUdRJyZyc3FiO0Yn">NyYiIiJGI0YjRiM=</Equation></Text-field>
+</Output>
+</Group><CodeEditor-ExecGroup view="presentation" labelreference="L642" drawlabel="true" applyint="true" applyrational="true" display="code"><EC-CodeEditor id="CodeEditRegion3" expanded="true" visible="true" pixel-width="500" pixel-height="200" code-language="text/maple" autofit="true" wrapping="true" show-border="true" code-line-numbers="true">####Convert list to matrix####
+List2Mat:=proc(a,L,W)
+local Args,M;
+Args:=seq(seq(w[i,j],j=1..W),i=1..L):
+M:=unapply(Matrix(L, W, symbol = w),Args):
+M(seq(parse(a[i]),i=1..L*W));
+end proc:
+</EC-CodeEditor></CodeEditor-ExecGroup>
+<Group hide-input="false" labelreference="L641" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">List2Mat(&quot;111111&quot;,2,3);</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkqbWNvbXBsZXRlRzYjL0krbW9kdWxlbmFtZUc2IkksVHlwZXNldHRpbmdHSShfc3lzbGliR0YnNiQtSShtZmVuY2VkR0YkNigtSSVtcm93R0YkNiYtSSdtdGFibGVHRiQ2Ni1JJG10ckdGJDYoLUkkbXRkR0YkNigtSSNtbkdGJDYkUSIxRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUpcm93YWxpZ25HUSFGJy8lLGNvbHVtbmFsaWduR0ZDLyUrZ3JvdXBhbGlnbkdGQy8lKHJvd3NwYW5HRj0vJStjb2x1bW5zcGFuR0Y9RjdGN0ZBRkRGRkY0LyUmYWxpZ25HUSVheGlzRicvRkJRKWJhc2VsaW5lRicvRkVRJ2NlbnRlckYnL0ZHUSd8ZnJsZWZ0fGhyRicvJS9hbGlnbm1lbnRzY29wZUdRJXRydWVGJy8lLGNvbHVtbndpZHRoR1ElYXV0b0YnLyUmd2lkdGhHRlovJStyb3dzcGFjaW5nR1EmMS4wZXhGJy8lLmNvbHVtbnNwYWNpbmdHUSYwLjhlbUYnLyUpcm93bGluZXNHUSVub25lRicvJSxjb2x1bW5saW5lc0dGX28vJSZmcmFtZUdGX28vJS1mcmFtZXNwYWNpbmdHUSwwLjRlbX4wLjVleEYnLyUqZXF1YWxyb3dzR1EmZmFsc2VGJy8lLWVxdWFsY29sdW1uc0dGaW8vJS1kaXNwbGF5c3R5bGVHRmlvLyUlc2lkZUdRJnJpZ2h0RicvJTBtaW5sYWJlbHNwYWNpbmdHRlxvLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Zpb0Y+Rj4vSSttc2VtYW50aWNzR0YkUSdNYXRyaXhGJy8lJW9wZW5HUScmbHNxYjtGJy8lJmNsb3NlR1EnJnJzcWI7RidGaHAtRiw2KC1GLzYmLUYyNjYtRjU2KC1GODYoLUY7NiZGPUZjcEZmcEY+RkFGREZGRkhGSkZpcUZpcUZBRkRGRkZncUZMRk8vRkVGYHBGU0ZVRlhGZW5GZ25Gam5GXW9GYG9GYm9GZG9GZ29Gam9GXHBGXnBGYXBGY3BGZnBGPkZjcEZmcEY+L0ZccVEiW0YnL0ZfcVEiXUYn">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyMtSSdSVEFCTEVHRig2JSI1bSRwUFIjUVluVz0tSSdNQVRSSVhHRig2IzckNyUtSSNtbkc2JEYmL0krbW9kdWxlbmFtZUdGKEYkNiNRIjFGKEY1RjVGNEknTWF0cml4R0YlNyMtRjw2Iy9JJCVpZEdGKEYv</Equation></Text-field>
+</Output>
+</Group><CodeEditor-ExecGroup view="presentation" labelreference="L644" drawlabel="true" applyint="true" applyrational="true" display="code"><EC-CodeEditor id="CodeEditRegion5" expanded="true" visible="true" pixel-width="500" pixel-height="200" code-language="text/maple" autofit="true" wrapping="true" show-border="true" code-line-numbers="true">####Convert matrix to list####
+Mat2List:=proc(L)
+cat(seq(sprintf(&quot;%a&quot;,i),i=Transpose(L)));
+end proc:</EC-CodeEditor></CodeEditor-ExecGroup>
+<Group hide-input="false" labelreference="L645" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Mat2List(List2Mat(&quot;1111&quot;,2,2));</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbXNHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2I1ElMTExMUYn">USUxMTExNiI=</Equation></Text-field>
+</Output>
+</Group><CodeEditor-ExecGroup view="presentation" labelreference="L631" drawlabel="true" applyint="true" applyrational="true" display="code"><EC-CodeEditor id="CodeEditRegion2" expanded="true" visible="true" pixel-width="500" pixel-height="200" code-language="text/maple" autofit="true" wrapping="true" show-border="true" code-line-numbers="true">####Loop over possible binary sequences keep only those with correct ICs####
+BinaryList:=proc(L,W)
+local i, ii, j, B, S, up, down, right, Candidate, checker, TruthList,ToCheck, Checked;
+B:=[]:
+for i from 0 to 2^(L*W)-1 do
+	Candidate:=Binaryiser(i,L*W-1):
+
+	TruthList:=[]:
+	for ii from 1 to L do:
+		TruthList:=[op(TruthList),evalb(parse(Candidate[1+(ii-1)*W])=1)];
+	end do:
+
+	if not member(false,TruthList) then
+		S:=convert(List2Name(Candidate), `+`);
+		
+		ToCheck:=[1];
+		Checked:=[];
+		
+		for j from 1 to L*W while nops(ToCheck)&gt;0 do
+					
+			up:=ToCheck[1]-W mod L*W: if up=0 then up:=L*W: end if:
+			down:=ToCheck[1]+W mod L*W: if down=0 then down:=L*W: end if:
+			right:=ToCheck[1]+1 mod L*W: if right=0 then right:=L*W: end if:
+			
+			if not (member(up,Checked) or member(up,ToCheck)) and (parse(Candidate[up])=1) then
+				ToCheck:=[op(ToCheck),up];
+			end if:
+			
+			
+			if not (member(down,Checked) or member(down,ToCheck)) and (parse(Candidate[down])=1) then
+				ToCheck:=[op(ToCheck),down];
+			end if:
+			
+			
+			if not (member(right,Checked) or member(right,ToCheck)) and (parse(Candidate[right])=1) then
+				ToCheck:=[op(ToCheck),right];
+			end if:
+	
+			Checked:=[op(Checked),ToCheck[1]];
+			ToCheck:=ToCheck[2..-1];
+		end do:
+	
+		if nops(Checked)=S then
+			B:=[op(B),Candidate]:
+		end if;
+		
+	end if;
+end do:
+[B,nops(B),2^(L*W)];
+end proc:
+</EC-CodeEditor></CodeEditor-ExecGroup>
+<Group hide-input="false" labelreference="L1" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">BinaryList(3,3);</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYqLUYjNiYtRiw2aHAtSSNtc0dGJDYjUSoxMDAxMDAxMDBGJy1JI21vR0YkNi1RIixGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHUSV0cnVlRicvJSlzdHJldGNoeUdGPy8lKnN5bW1ldHJpY0dGPy8lKGxhcmdlb3BHRj8vJS5tb3ZhYmxlbGltaXRzR0Y/LyUnYWNjZW50R0Y/LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictRjM2I1EqMTEwMTAwMTAwRidGNi1GMzYjUSoxMTExMDAxMDBGJ0Y2LUYzNiNRKjEwMDExMDEwMEYnRjYtRjM2I1EqMTEwMTEwMTAwRidGNi1GMzYjUSoxMTExMTAxMDBGJ0Y2LUYzNiNRKjExMTEwMTEwMEYnRjYtRjM2I1EqMTAwMTExMTAwRidGNi1GMzYjUSoxMTAxMTExMDBGJ0Y2LUYzNiNRKjEwMTExMTEwMEYnRjYtRjM2I1EqMTExMTExMTAwRidGNi1GMzYjUSoxMDAxMDAxMTBGJ0Y2LUYzNiNRKjExMDEwMDExMEYnRjYtRjM2I1EqMTExMTAwMTEwRidGNi1GMzYjUSoxMDAxMTAxMTBGJ0Y2LUYzNiNRKjExMDExMDExMEYnRjYtRjM2I1EqMTExMTEwMTEwRidGNi1GMzYjUSoxMTExMDExMTBGJ0Y2LUYzNiNRKjEwMDExMTExMEYnRjYtRjM2I1EqMTEwMTExMTEwRidGNi1GMzYjUSoxMDExMTExMTBGJ0Y2LUYzNiNRKjExMTExMTExMEYnRjYtRjM2I1EqMTExMTAwMTAxRidGNi1GMzYjUSoxMTExMTAxMDFGJ0Y2LUYzNiNRKjExMTEwMTEwMUYnRjYtRjM2I1EqMTAwMTExMTAxRidGNi1GMzYjUSoxMTAxMTExMDFGJ0Y2LUYzNiNRKjEwMTExMTEwMUYnRjYtRjM2I1EqMTExMTExMTAxRidGNi1GMzYjUSoxMDAxMDAxMTFGJ0Y2LUYzNiNRKjExMDEwMDExMUYnRjYtRjM2I1EqMTAxMTAwMTExRidGNi1GMzYjUSoxMTExMDAxMTFGJ0Y2LUYzNiNRKjEwMDExMDExMUYnRjYtRjM2I1EqMTEwMTEwMTExRidGNi1GMzYjUSoxMDExMTAxMTFGJ0Y2LUYzNiNRKjExMTExMDExMUYnRjYtRjM2I1EqMTAwMTAxMTExRidGNi1GMzYjUSoxMTAxMDExMTFGJ0Y2LUYzNiNRKjEwMTEwMTExMUYnRjYtRjM2I1EqMTExMTAxMTExRidGNi1GMzYjUSoxMDAxMTExMTFGJ0Y2LUYzNiNRKjExMDExMTExMUYnRjYtRjM2I1EqMTAxMTExMTExRidGNi1GMzYjUSoxMTExMTExMTFGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGP0Y6RjovJSVvcGVuR1EnJmxzcWI7RicvJSZjbG9zZUdRJyZyc3FiO0YnRjYtSSNtbkdGJDYkUSM0NUYnRjpGNi1GXXc2JFEkNTEyRidGOkZhdkZkdkY6RjpGZnZGaXY=">NyU3T1EqMTAwMTAwMTAwNiJRKjExMDEwMDEwMEYlUSoxMTExMDAxMDBGJVEqMTAwMTEwMTAwRiVRKjExMDExMDEwMEYlUSoxMTExMTAxMDBGJVEqMTExMTAxMTAwRiVRKjEwMDExMTEwMEYlUSoxMTAxMTExMDBGJVEqMTAxMTExMTAwRiVRKjExMTExMTEwMEYlUSoxMDAxMDAxMTBGJVEqMTEwMTAwMTEwRiVRKjExMTEwMDExMEYlUSoxMDAxMTAxMTBGJVEqMTEwMTEwMTEwRiVRKjExMTExMDExMEYlUSoxMTExMDExMTBGJVEqMTAwMTExMTEwRiVRKjExMDExMTExMEYlUSoxMDExMTExMTBGJVEqMTExMTExMTEwRiVRKjExMTEwMDEwMUYlUSoxMTExMTAxMDFGJVEqMTExMTAxMTAxRiVRKjEwMDExMTEwMUYlUSoxMTAxMTExMDFGJVEqMTAxMTExMTAxRiVRKjExMTExMTEwMUYlUSoxMDAxMDAxMTFGJVEqMTEwMTAwMTExRiVRKjEwMTEwMDExMUYlUSoxMTExMDAxMTFGJVEqMTAwMTEwMTExRiVRKjExMDExMDExMUYlUSoxMDExMTAxMTFGJVEqMTExMTEwMTExRiVRKjEwMDEwMTExMUYlUSoxMTAxMDExMTFGJVEqMTAxMTAxMTExRiVRKjExMTEwMTExMUYlUSoxMDAxMTExMTFGJVEqMTEwMTExMTExRiVRKjEwMTExMTExMUYlUSoxMTExMTExMTFGJSIjWCIkNyY=</Equation></Text-field>
+</Output>
+</Group><CodeEditor-ExecGroup view="presentation" hide-input="false" labelreference="L648" drawlabel="true" applyint="true" applyrational="true" display="code"><EC-CodeEditor id="CodeEditRegion6" expanded="true" visible="true" pixel-width="500" pixel-height="200" code-language="text/maple" autofit="true" wrapping="true" show-border="true" code-line-numbers="true">####Create ODEs####
+MatrixReader := proc(L,W)
+local a,S,k,l,b,s,i,j,h,hh,checker,N,OUTPUT,Subber1,Subber2,OutputList,ICs,BiList,up,down,left,right,MatList,NameList;
+BiList:=BinaryList(L,W)[1];
+OutputList:=BinaryList(L,W)[1];
+N:=nops(OutputList);
+OUTPUT:=[];
+
+###Remove symmetries from possible candidates###
+for h from 1 to N do
+		MatList:=List2Mat(OutputList[h],L,W);
+		NameList:=List2Name(OutputList[h]);
+
+		for hh from 1 to L do
+		MatList:=MatList[[2..-1,1]][1..-1];
+		Subber2:=Mat2List(MatList)=OutputList[h];
+		OutputList:=subs(Subber2,OutputList):
+		
+		Subber2:=Mat2List(FlipDimension(MatList,1))=OutputList[h];
+		OutputList:=subs(Subber2,OutputList):
+		end do:
+end do;
+OutputList:=MakeUnique(OutputList);
+N:=nops(OutputList);
+
+###Create ODEs for reduced candidates###
+for h from 1 to N do
+	S:=0;
+	a:=List2Mat(OutputList[h],L,W);
+
+	for i from 1 to W do
+		for j from 1 to L do
+			up:=j-1; if up=0 then up:=L; end if;
+			down:=j+1; if down=L+1 then down:=1; end if;
+			left:=i-1;
+			right:=i+1;
+			
+			if left=0 then
+				s:=a[up,i]+a[down,i]+a[j,right];
+			elif right=W+1 then
+				s:=a[up,i]+a[down,i]+a[j,left];
+			else
+				s:=a[up,i]+a[down,i]+a[j,left]+a[j,right];
+			end if;
+	
+			b:=a;
+	          b[j,i]:=0;
+			a:=List2Mat(OutputList[h],L,W);
+	
+			checker:=1;
+			if not(member(Mat2List(b),BiList)) then
+				checker:=0;
+			end if:
+		
+		
+			S:=S+s*(a[j,i]*checker*P[convert(Transpose(b),list)](t)-(1-a[j,i])*P[convert(Transpose(a),list)](t)):
+			end do;
+	end do;
+	OUTPUT:=[op(OUTPUT),diff(P[convert(Transpose(a),list)](t),t)=S];
+end do;
+
+###Remove symmetries from ODEs###
+for h from 1 to N do
+		MatList:=List2Mat(OutputList[h],L,W);
+		NameList:=List2Name(OutputList[h]);
+
+		for hh from 1 to L do
+		MatList:=MatList[[2..-1,1]][1..-1];
+		Subber1:=P[List2Name(Mat2List(MatList))](t)=P[NameList](t);
+		OUTPUT:=subs(Subber1,OUTPUT):
+
+		
+		Subber1:=P[List2Name(Mat2List(FlipDimension(MatList,1)))](t)=P[NameList](t);
+		OUTPUT:=subs(Subber1,OUTPUT):	
+		end do:
+end do;
+OUTPUT:=MakeUnique(OUTPUT);
+
+
+ICs:=[]:
+for h from 1 to nops(OutputList) do
+	
+	if h=1 then 
+		ICs:=[op(ICs),P[List2Name(OutputList[h])](0)=1];
+	else
+		ICs:=[op(ICs),P[List2Name(OutputList[h])](0)=0];
+	end if:
+end do:
+
+evalb(nops(OUTPUT)=nops(ICs)),evalb(nops(OUTPUT)=nops(OutputList)),nops(OutputList),OUTPUT,ICs,OutputList,subs(P=Q,OUTPUT),subs(P=Q,ICs);
+
+end proc:</EC-CodeEditor></CodeEditor-ExecGroup>
+<Group hide-input="false" labelreference="L647" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">EQNS:=MatrixReader(2,4):
+nops(EQNS[4]);
+nops(EQNS[5]);
+nops(EQNS[6]);
+</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEjMTZGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">IiM7</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEjMTZGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">IiM7</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbW5HNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JFEjMTZGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">IiM7</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-input="false" labelreference="L658" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Worksheet>
